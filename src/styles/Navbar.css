@@ -1,24 +1,115 @@
 #navbar {
     width: 100%;
-    background-color: #acacab;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#navbar ul {
-    display: flex;
-    list-style: none;
-}
-
-#navbar ul li {
-    padding: 1rem;
-    text-decoration: none;
-}
-
-#navbar-right {
+    box-sizing: border-box;
+    background-color: #1f1e1e;
+    user-select: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12px 3.2rem;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Titillium Web', sans-serif;
+    overflow: hidden;
+}
+
+.navbar-back {
+    background: rgb(31, 30, 30);
+    background: linear-gradient(90deg, rgba(31, 30, 30, 0) 11%, rgba(31, 30, 30, 0.05) 12%, rgba(31, 30, 30, 0.1) 13%, rgba(31, 30, 30, 0.15) 14%, rgba(31, 30, 30, 0.2) 15%, rgba(31, 30, 30, 0.25) 16%, rgba(31, 30, 30, 0.3) 17%, rgba(31, 30, 30, 0.35) 18%, rgba(31, 30, 30, 0.4) 19%, rgba(31, 30, 30, 0.45) 20%, rgba(31, 30, 30, 0.5) 21%, rgba(31, 30, 30, 0.55) 23%, rgba(31, 30, 30, 0.6) 26%, rgba(31, 30, 30, 0.65) 30%, rgba(31, 30, 30, 0.7) 35%, rgba(31, 30, 30, 0.75) 40%, rgba(31, 30, 30, 0.8) 45%, rgba(31, 30, 30, 0.85) 50%, rgba(31, 30, 30, 0.9019257361147583) 55%, rgba(31, 30, 30, 0.9523459041819853) 60%, rgba(31, 30, 30, 1) 65%) !important;
+}
+
+#ecelllogo {
+    width: 7rem;
+}
+
+#navright {
+    display: flex;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    animation-duration: 500ms;
+    left: 150%;
+}
+
+@keyframes navslide {
+    0% {
+        left: 150%;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes revnavslide {
+    0% {
+        left: 0%;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        left: 150%;
+    }
+}
+
+#menu a {
+    font-size: 1.05rem;
+    letter-spacing: 0.4px;
+    padding: 0px 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 50%;
+    padding: 14px 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+    background-color: #1f1e1e;
+}
+
+.hamburger .bar {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger.cross .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.hamburger.cross .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.cross .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-4px, -4px);
+}
+.reg-btn{
+    cursor: pointer;
+    padding: 0.4rem 0.9rem !important;
+    border-radius: 4px;
+    font-size: 1.1rem;
 }

@@ -1,4 +1,56 @@
-#upcomingevent {
-    height: 120vh;
-    background-color: greenyellow;
-}
+
+.App {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30%;
+    padding-top: 10%;
+    padding-bottom: 19%;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .card {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ebe5e5;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    transform: scale(1);
+  }
+  
+  .card:hover {
+    background-color: lightgray;
+    transform: scale(1.05); 
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 50%;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    text-align: left;
+    max-width: 55%;
+    padding: 0 10px;
+  }
+  

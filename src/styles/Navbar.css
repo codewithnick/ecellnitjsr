@@ -1,0 +1,24 @@
+#navbar {
+    width: 100%;
+    background-color: #acacab;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+#navbar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

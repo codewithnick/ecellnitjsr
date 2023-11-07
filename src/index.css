@@ -17,3 +17,6 @@ code {
 a {
   text-decoration: none;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

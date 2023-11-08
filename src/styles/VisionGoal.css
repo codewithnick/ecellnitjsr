@@ -46,6 +46,9 @@ body .container .card {
   border-radius: 15px;
   margin: 30px;
   transition: 0.5s;
+  width: 320px; /* Set a fixed width for each card */
+  height: 440px;
+  margin: 0 20px 20px 0;
 }
 
 body .container .card:nth-child(1) .box .content a {
@@ -134,4 +137,7 @@ body .container .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
+}
+body .container .card:last-child {
+  margin-right: 0; /* Remove margin for the last card in a row */
 }

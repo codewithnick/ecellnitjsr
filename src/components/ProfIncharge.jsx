@@ -19,17 +19,21 @@ export const ProfIncharge = () => {
      
         <h2>Professor Incharge</h2>
         <Flexbox>
+          {/* Div that contain Professor Pic and other design*/ }
           <div className="pic">
             <div className="imgframe">
             <img src={Side_design_1} alt="none" className="side_1" />
             <img src={Side_design_2} alt="none" className="side_2" />
-            <img src={DemoImage} alt="Professor Image" />
+            <img src={DemoImage} alt="Professor Image" />{/*Professor Pic*/ }
             </div>
             
           </div>
+
+          {/* Div that contain Professor details and other design*/ }
           <div className="detail">
-            
            <img src={Quotes} alt="Quotes" /><br/>
+
+           {/* This star contain all the stars */ }
            <Flexbox className="star">
            <img src={Star} alt="Star" />
            <img src={Star} alt="Star" />
@@ -37,16 +41,19 @@ export const ProfIncharge = () => {
            <img src={Star} alt="Star" />
            <img src={Star} alt="Star" />
            </Flexbox>
-           
+           {/* Professor details*/ }
             <p style={{"fontWeight": "500"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At explicabo dolorem sequi molestiae distinctio molestias earum quas eius quis delectus!</p>
+           
+           
+            {/* Professor name and post */ }
             <Flexbox style={{"justifyContent": "space-between"}}>
               <div style={{"marginTop": "50px","width": "firContent"}}>
-              <h4 style={{"fontWeight": "500"}}>Kranti Kumar</h4>
-              <h6 style={{"fontWeight": "300"}}>Post</h6>
+              <h4 style={{"fontWeight": "500"}}>Kranti Kumar</h4>{/* Professor name*/ }
+              <h6 style={{"fontWeight": "300"}}>Post</h6>{/* Professor Post*/ }
               </div>
               <div style={{"margin": "50px 50px 0 0","width": "firContent"}}>
               
-              <h3 style={{"fontWeight": "500","fontSize": "20px"}}>Ecell</h3>
+              <h3 style={{"fontWeight": "500","fontSize": "20px"}}>Ecell</h3>{/* Ecell :-)*/ }
               </div>
             </Flexbox>
             </div>

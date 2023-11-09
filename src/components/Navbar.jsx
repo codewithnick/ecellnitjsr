@@ -23,23 +23,30 @@ export const Navbar = () => {
     <>
       <div id="navbar" className={`${menuOpen ? "navbar-back" : ""}`}>
         <img src={ecelllogo} id="ecelllogo" alt="" />
-        <div id="navright">
+        
           <div id="menu">
           <Link className="nav-links" to="/">Home</Link>
           <Link className="nav-links" to="/events">Events</Link>
           <Link className="nav-links" to="/teams">Team</Link>
           <Link className="nav-links" to="/contactus">Contact Us</Link>
-          <Link to="/register"><button className="reg-btn">Register</button></Link>
+          {/* <Link to="/register"><button className="reg-btn">Register</button></Link> */}
           </div>
-          <div
-            className={`hamburger ${menuOpen ? "cross" : ""}`}
-            onClick={toggleMenu}
-          >
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
+
+          
+          <div id="reg-hum">
+            <div>
+              <Link to="/register"><button className="reg-btn">Register</button></Link>
+            </div>
+            <div
+              className={`hamburger ${menuOpen ? "cross" : ""}`}
+              onClick={toggleMenu}
+            >
+              <div className="bar"></div>
+              <div className="bar"></div>
+              <div className="bar"></div>
+            </div>
           </div>
-        </div>
+          
       </div>
     </>
   );

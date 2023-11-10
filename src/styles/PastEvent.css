@@ -10,13 +10,16 @@ header {
 h1 {
   margin: 0;
 }
-
+.pasteventimg{
+  background-color: #f0f0f0;;
+}
 .carousel-container {
   position: relative;
   width: 50%;
   margin: auto;
   overflow: hidden;
   border-radius: 1.5rem;
+  margin-bottom: 3%;
 }
 
 /* Custom styles for the carousel images */
@@ -42,12 +45,12 @@ h1 {
 /* Custom styles for the carousel caption */
 .carousel-caption {
   position: absolute;
-  bottom: 50px;
+  bottom: 33px;
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.1);
   color: white;
-  padding: 20px;
+  padding: 8px;
   text-align: center;
   display: none;
 }

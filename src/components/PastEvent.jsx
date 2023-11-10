@@ -36,11 +36,12 @@ const PastEvent = () => {
   };
 
   return (
-    <div>
-      <header>
+    <>
+      
+    <div className="pasteventimg">
+    <header>
         <h1>E-Cell Events</h1>
       </header>
-
       <div id="carouselExampleIndicators" className="carousel-container">
         <div className="carousel-inner">
           <div className="carousel-item">
@@ -95,7 +96,7 @@ const PastEvent = () => {
           &#62;
         </div>
       </div>
-
+      </div>
       <script>
         {`
           let currentIndex = 0;
@@ -131,7 +132,7 @@ const PastEvent = () => {
       }
     `}
       </script>
-    </div>
+    </>
   );
 };
 

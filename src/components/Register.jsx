@@ -13,7 +13,7 @@ import RightArrow from "../images/Icon/rightArrow.png";
 
 export const Register = () => {
   return (
-    <Flexbox style={{ padding: "5%" }}>
+    <RegisterBox style={{ padding: "5%" }}>
       {/*/Text is a div that contain all the social media link */}
       <Text>
         <div className="TextHeader">
@@ -83,15 +83,25 @@ export const Register = () => {
           </div>
         </form>
       </RegisterForm>
-    </Flexbox>
+    </RegisterBox>
   );
 };
+const RegisterBox = styled.div`
+display: flex;
+flex-direction: row;
+@media (max-width: 768px) {
+  flex-direction: column;
+}
+`;
 const Flexbox = styled.div`
   display: flex;
 `;
 const Text = styled.div`
   width: 40%;
   color: #0b1b35;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
   h2 {
     color: #0b1b35;
     font-family: "Inter", sans-serif;
@@ -104,11 +114,15 @@ const Text = styled.div`
       color: #666;
     }
     .Contact_info {
+      div{
+        align-item: center;
+      }
       padding-top: 15px;
       h4 {
         margin: 5px 0 5px 0;
       }
       img {
+        width: 50px;
         padding: 10px;
       }
     }
@@ -118,6 +132,9 @@ const Text = styled.div`
 const RegisterForm = styled.div`
   width: 60%;
   font-family: "Inter", sans-serif;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
   h2 {
     color: #0b1b35;
     font-family: "Inter", sans-serif;
@@ -126,29 +143,31 @@ const RegisterForm = styled.div`
     width: 90%;
     padding: 12px;
     margin: 5px;
-    border: solid orange 2px;
+    border: solid #190482 2px;
     border-radius: 5px;
     font-size: 15px;
+
   }
   input[type="submit"] {
     width: max-content;
     padding: 15px;
     padding-right: 50px;
     color: white;
-    background: orange;
+    background: #190482;
     font-size: 20px;
     transition: 0.5s;
   }
   input[type="submit"]:hover {
-    border: solid 3px orange;
-    background-color: #e84949;
+    color: #190482;
+    border: solid 3px #190482;
+    background-color: #fff;
   }
 
   textarea {
     width: 90%;
     padding: 12px;
     margin: 5px;
-    border: solid orange 2px;
+    border: solid #190482 2px;
     border-radius: 5px;
     font-size: 15px;
   }

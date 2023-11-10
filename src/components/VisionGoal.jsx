@@ -1,43 +1,56 @@
 import React from "react";
 import "../styles/VisionGoal.css";
+import tmp from "../images/Icon/goal .png";
+import mis from "../images/Icon/crosshairs-solid.svg";
+import vis from "../images/Icon/eye-solid.svg";
 
 export const VisionGoal = () => {
   return (
     <>
       <div id="visiongoal" className="center-align">
         Vision & Goals
-        </div>
-      
+      </div>
+
       <div className="container">
         <div className="card">
           <div className="box">
+            <img src={mis} alt="" />
             <div className="content">
-              <h2>01</h2>
-              <h3>Card One</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-              <a href="#">Read More</a>
+              <h3>Mission</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                totam velit? Iure nemo labore inventore?
+              </p>
+              <a href="/">Read More</a>
             </div>
           </div>
         </div>
 
         <div className="card">
           <div className="box">
+          <img src={tmp} alt="" />
             <div className="content">
-              <h2>02</h2>
-              <h3>Card Two</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-              <a href="#">Read More</a>
+              <h3>Goal</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                totam velit? Iure nemo labore inventore?
+              </p>
+              <a href="/">Read More</a>
             </div>
           </div>
         </div>
 
         <div className="card">
           <div className="box">
+          <img src={vis} alt="" />
             <div className="content">
-              <h2>03</h2>
-              <h3>Card Three</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-              <a href="#">Read More</a>
+             
+              <h3>Vision</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                totam velit? Iure nemo labore inventore?
+              </p>
+              <a href="/">Read More</a>
             </div>
           </div>
         </div>
@@ -45,4 +58,5 @@ export const VisionGoal = () => {
     </>
   );
 };
+
 export default VisionGoal;

@@ -1,6 +1,6 @@
 #visiongoal {
     height: 20vh; /* Increase the height to make it bigger */
-    background-color: yellow;
+    background-color: rgb(253, 253, 253);
     display: flex;
     justify-content: center;
     align-items: center; /* Center-align the text vertically */
@@ -29,16 +29,15 @@ body {
 
 body .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: 40px 0;
+  margin: 40px auto;
 }
-
 body .container .card {
   position: relative;
-  min-width: 320px;
+  width: 320px; /* Set the width of each card */
   height: 440px;
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset -5px -5px 15px rgba(255, 255, 255, 0.1),
@@ -48,16 +47,17 @@ body .container .card {
   transition: 0.5s;
 }
 
+
 body .container .card:nth-child(1) .box .content a {
-  background: #2196f3;
+  background:  #e78121;
 }
 
 body .container .card:nth-child(2) .box .content a {
-  background: #e91e63;
+  background:  #e78121;
 }
 
 body .container .card:nth-child(3) .box .content a {
-  background: #23c186;
+  background: #e78121;
 }
 
 body .container .card .box {
@@ -66,13 +66,20 @@ body .container .card .box {
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #2a2b2f;
+  background: rgb(255, 255, 255);
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   transition: 0.5s;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.box img{
+  width: 4rem;
 }
 
 body .container .card .box:hover {
@@ -84,9 +91,9 @@ body .container .card .box:before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 50%; 
   height: 100%;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(51, 47, 47, 0.03);
 }
 
 body .container .card .box .content {
@@ -94,26 +101,21 @@ body .container .card .box .content {
   text-align: center;
 }
 
-body .container .card .box .content h2 {
-  position: absolute;
-  top: -10px;
-  right: 30px;
-  font-size: 8rem;
-  color: rgba(255, 255, 255, 0.1);
-}
+
 
 body .container .card .box .content h3 {
   font-size: 1.8rem;
-  color: #fff;
+  color: #0c0a0a;
   z-index: 1;
   transition: 0.5s;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 body .container .card .box .content p {
   font-size: 1rem;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(24, 6, 6, 0.9);
   z-index: 1;
   transition: 0.5s;
 }

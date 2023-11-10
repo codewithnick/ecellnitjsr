@@ -24,7 +24,7 @@ export const ProfIncharge = () => {
             <div className="imgframe">
             <img src={Side_design_1} alt="none" className="side_1" />
             <img src={Side_design_2} alt="none" className="side_2" />
-            <img src={DemoImage} alt="Professor Image" />{/*Professor Pic*/ }
+            <img src={DemoImage} alt="Professor Image" />
             </div>
             
           </div>

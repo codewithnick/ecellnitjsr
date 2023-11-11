@@ -78,8 +78,7 @@ const PastEvent = () => {
             </div>
           </div>
         </div>
-
-        <ul className="carousel-indicators">
+        {/* <ul className="carousel-indicators">
           {[0, 1, 2].map((index) => (
             <li
               key={index}
@@ -93,9 +92,25 @@ const PastEvent = () => {
           &#60;
         </div>
         <div className="carousel-control carousel-control-next" onClick={nextSlide}>
-          &#62;
-        </div>
+          &#62; 
+        </div>*/}
       </div>
+       <ul className="carousel-indicators">
+          {[0, 1, 2].map((index) => (
+            <li
+              key={index}
+              className={`carousel-indicator ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => goToSlide(index)}
+            ></li>
+          ))}
+        </ul>
+
+        <div className="carousel-control carousel-control-prev" onClick={prevSlide}>
+          &#60;
+        </div>
+        <div className="carousel-control carousel-control-next" onClick={nextSlide}>
+          &#62; 
+        </div>
       </div>
       <script>
         {`

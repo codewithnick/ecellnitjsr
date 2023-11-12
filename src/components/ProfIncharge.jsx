@@ -18,13 +18,13 @@ export const ProfIncharge = () => {
     <ProfessorIncharge>
      
         <h2>Professor Incharge</h2>
-        <Flexbox>
+        <PiBox>
           {/* Div that contain Professor Pic and other design*/ }
           <div className="pic">
             <div className="imgframe">
             <img src={Side_design_1} alt="none" className="side_1" />
             <img src={Side_design_2} alt="none" className="side_2" />
-            <img src={DemoImage} alt="Professor Image" />
+            <img src={DemoImage} alt="Professor Image" />{/*Professor Pic*/ }
             </div>
             
           </div>
@@ -58,7 +58,7 @@ export const ProfIncharge = () => {
             </Flexbox>
             </div>
           
-        </Flexbox>
+        </PiBox>
      
     </ProfessorIncharge>
   );
@@ -86,7 +86,10 @@ font-family: "Inter", sans-serif;
 .pic{
   width: 50%;
   margin: 10%;
-  
+  @media (max-width: 768px) {
+    width: 90%;
+    margin 5%;
+  }
   .imgframe{
     position: relative;
     background: #190482;
@@ -121,7 +124,17 @@ h2{
   text-align: center;
 }
 `;
+
 const Flexbox = styled.div`
 display: flex;
+`;
+const PiBox = styled.div`
+display: flex;
+flex-direction: row;
+@media (max-width: 768px) {
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
 `;
 export default ProfIncharge;

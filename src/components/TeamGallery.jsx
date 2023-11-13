@@ -4,8 +4,8 @@ import "../styles/TeamGallery.css";
 export const TeamGallery = () => {
   return (
     <>
-      <div className="text-center text-3xl p-10 font-bold text-red-600">Team Gallery</div>
-      <div className="px-20 pb-10">
+      <div className="text-center text-3xl p-10 font-bold text-red-600 bg-white">Team Gallery</div>
+      <div className="px-20 pb-10 bg-white">
 
         <div class="grid grid-cols-2 gap-2">
           <div>

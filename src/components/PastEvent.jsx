@@ -6,6 +6,7 @@ const PastEvent = () => {
 
   useEffect(() => {
     updateCarousel();
+    // eslint-disable-next-line
   }, [currentIndex]);
 
   const nextSlide = () => {
@@ -48,7 +49,7 @@ const PastEvent = () => {
             <img
               className="pastEvents"
               src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-              alt="image 1"
+              alt="img 1"
             />
             <div className="carousel-caption">
               <h5>This is event 1 </h5>
@@ -59,7 +60,7 @@ const PastEvent = () => {
             <img
               className="pastEvents"
               src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-              alt="image 2"
+              alt="img 2"
             />
             <div className="carousel-caption">
               <h5>This is event 2 </h5>
@@ -70,7 +71,7 @@ const PastEvent = () => {
             <img
               className="pastEvents"
               src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-              alt="image 3"
+              alt="img 3"
             />
             <div className="carousel-caption">
               <h5>This is event 3 </h5>

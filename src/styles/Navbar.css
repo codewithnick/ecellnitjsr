@@ -12,7 +12,9 @@
     font-family: 'Be Vietnam Pro', sans-serif;
     overflow: hidden;
 }
-
+#temp{
+    padding-left: 11rem;
+}
 #reg-hum{
     display: none ;
     gap: 5px;
@@ -32,7 +34,7 @@
 #menu a {
     font-size: 1.05rem;
     letter-spacing: 0.4px;
-    padding: 0px 16px;
+    padding: 0px 20px;
     color: black;
     text-decoration: none;
 }
@@ -42,9 +44,9 @@
     padding: 0.4rem 0.9rem !important;
     border-radius: 4px;
     font-size: 1.1rem;
-    background-color: orange;
+    background-color: #190482;
     color: #fff;
-    border-color: orange;
+    border-color: #190482;
 }
 
 .reg-btn:hover{
@@ -54,6 +56,9 @@
   
 /* Styles for mobile screens (max-width: 768px) */
 @media (max-width: 850px) {
+    #temp{
+        padding-left: 0;
+    }
     #reg-hum{
         display: flex;
     }

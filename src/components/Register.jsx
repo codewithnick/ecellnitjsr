@@ -5,9 +5,9 @@ import "../styles/Register.css";
 //Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faBuilding,faEnvelope, faCommentDots, faUsersRectangle,faArrowRight} from "@fortawesome/free-solid-svg-icons";
-export const Register = () => {
+export const Contactus = () => {
   return (
-    <>
+    <div style={{"backgroundColor": "#f0f0f0","padding": "10px"}}>
       <Aboutus>
         <h2>About us</h2>
         <p>
@@ -80,7 +80,7 @@ export const Register = () => {
           </form>
         </RegisterForm>
       </RegisterBox>
-    </>
+    </div>
   );
 };
 const RegisterBox = styled.div`
@@ -93,7 +93,9 @@ const RegisterBox = styled.div`
 const Aboutus = styled.div`
   width: 60%;
   margin: 2% 20% 0 20%;
+  background-color: #f0f0f0;
   h2 {
+    font-size: 30px;
     text-align: center;
     color: #0b1b35;
     font-family: "Inter", sans-serif;
@@ -117,6 +119,7 @@ const Text = styled.div`
     width: 80%;
   }
   h2 {
+    font-size: 30px;
     color: #0b1b35;
     font-family: "Inter", sans-serif;
     padding: 5px;
@@ -203,6 +206,5 @@ const RegisterForm = styled.div`
     color: white;
     
   }
- 
 `;
-export default Register;
+export default Contactus;

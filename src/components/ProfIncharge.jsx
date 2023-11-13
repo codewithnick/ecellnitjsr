@@ -15,9 +15,10 @@ import Quotes from "../images/Icon/left-quote.png"
 import Star from "../images/Icon/star.png"
 export const ProfIncharge = () => {
   return (
+    <div style={{"background": "#f0f0f0"}}>
     <ProfessorIncharge>
      
-        <h2>Professor Incharge</h2>
+        <h2 style={{"paddingTop": "40px"}}>Professor Incharge</h2>
         <PiBox>
           {/* Div that contain Professor Pic and other design*/ }
           <div className="pic">
@@ -61,12 +62,14 @@ export const ProfIncharge = () => {
         </PiBox>
      
     </ProfessorIncharge>
+    </div>
   );
 };
 
 const ProfessorIncharge = styled.div`
 margin: 0 5% 0 5% ;
 font-family: "Inter", sans-serif;
+background-color: #f0f0f0;
 .detail{
   margin: auto;
   .star{
@@ -85,14 +88,14 @@ font-family: "Inter", sans-serif;
 }
 .pic{
   width: 50%;
-  margin: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
   @media (max-width: 768px) {
     width: 90%;
     margin 5%;
   }
   .imgframe{
     position: relative;
-   
     width: 330px;
     height: 350px;
     margin: auto;

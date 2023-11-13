@@ -35,7 +35,7 @@
 }
 
 .btn-pink {
-  background-color: #ff6600;
+  background-color: #190482;
   border: solid 3px rgb(8, 5, 0);
   width: fit-content;
   color: white;
@@ -55,7 +55,7 @@
 .btn-pink::before {
   content: "";
   position: absolute;
-  background-color: #e84949;
+  background-color: #352586;
   top: 0px;
   left: 0;
   right: 0;
@@ -71,8 +71,8 @@
 }
 
 .btn-pink:hover {
-  border: solid 3px orange;
-  color: rgb(34, 26, 26);
+  border: solid 3px #190482;
+  color: #fff;
 }
 
 .learn-btn {

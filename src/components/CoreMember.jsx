@@ -18,7 +18,7 @@ export const CoreMember = () => {
   return (
     <>
       <div className="coremember bg-white">
-        <div className="w-full text-center text-3xl font-bold p-10 text-red-600">
+        <div className="w-full text-center text-3xl font-bold p-10 text-red-600" style={{"color": "#0b1b35"}}>
           Core Members
         </div>
         <div className="flex justify-center w-full text-center">

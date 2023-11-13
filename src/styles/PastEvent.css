@@ -1,81 +1,127 @@
-#pastevent {
-    /* height: 120vh; */
-    /* background-color: rgb(255, 106, 47); */
-}
-
-/* CSS for the page */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  /* background-color: #333; */
+  /* padding: 20px; */
+  text-align: center;
 }
 
 h1 {
-    margin: 0;
+  font-size: 2rem;
+  margin: 0;
+}
+.pasteventimg{
+  background-color: #f0f0f0;
+  border: .1px solid #f0f0f0;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+.carousel-container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.event-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
+/* Custom styles for the carousel images */
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  position: relative;
+ 
 }
 
-.event-container:hover {
-    /* transform: scale(1.05); */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+.carousel-item {
+    flex: 0 0 100%;
+    position: relative;
+    background-color: white; /* Set the background color to white */
+    /* height: 300px; Set the desired height of the images */
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 350px;  /*Set the desired height of the images */
+    object-fit: fill;
+  }
+
+/* Custom styles for the carousel caption */
+.carousel-caption {
+  position: absolute;
+  bottom: 33px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 8px;
+  text-align: center;
+  display: none;
 }
 
-.event {
-    /* flex: 0 1 calc(50% - 20px); */
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+.carousel-caption h5 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
 }
 
-.event:hover {
-    background-color: #f5f5f5;
+.carousel-caption p {
+  margin: 0;
 }
 
-.event h2 {
-    font-size: 20px;
-    color: #333;
+/* Show the caption only for medium and larger screens */
+@media (min-width: 768px) {
+  .carousel-caption {
+    display: block;
+  }
 }
 
-.event p {
-    color: #666;
+/* Custom styles for the carousel indicators */
+.carousel-indicators {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  list-style: none;
 }
 
-.event-date {
-    font-weight: bold;
+.carousel-indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
 }
 
-.event-description {
-    margin-top: 10px;
+.carousel-indicator.active {
+  background-color: #333;
 }
 
-.event-image {
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.2s ease;
+/* Custom styles for the carousel controls */
+.carousel-control {
+position: absolute;
+top: 60%;
+width: 5%;
+font-size: 2.5rem;
+color: #0a0101;
+text-align: center;
+background-color:#f0f0f0;
+border-radius: 50%;
+cursor: pointer;
+transform: translateY(-50%);
+z-index: 1;
+}
+.carousel-control:hover{
+  background-color: black;
+  color: white;
+  opacity: .5;
 }
 
-.event-image:hover {
-    transform: scale(1.1);
+.carousel-control-prev {
+  left: 19%;
+}
+
+.carousel-control-next {
+  right: 19%;
 }

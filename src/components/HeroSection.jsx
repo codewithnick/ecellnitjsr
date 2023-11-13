@@ -1,12 +1,17 @@
 import React from "react";
 import "../styles/HeroSection.css";
 
-import rightimg from '../images/heroimage.jpeg'
+import rightimg from '../images/heroimage.png'
+// import bgimg1 from '../images/whiteimg3.jpg'
+// import bgimg2 from '../images/whiteimg2.avif'
+
+import { BsPlayCircleFill } from 'react-icons/bs'
+
+
 export const HeroSection = () => {
   return (
     <>
       <div className="hero-section">
-
         <div className="left">
             <div className="hero-heading">
                 We boost growth for your startup 
@@ -20,18 +25,29 @@ export const HeroSection = () => {
             <div className="btn-container">
 
              <div class="btn-pink" id="btn">Get Started</div> 
-             <div class="btn-pink" id="btn">Learn More</div>
 
+              <div className="learn-btn">
+                <div className="play-bottom">
+                   <BsPlayCircleFill style={{fontSize: '50px',
+                                           }} />
+                </div>
+                 
+                 <span> Learn More</span>
+              </div>
+              {/* <div class="btn-pink" id="btn">Learn More</div> */}
+        
             </div>
         </div>
         
 
         <div className="right">
            <div className="right-img">
-                <img src={rightimg} alt="network issue" />
+                <img id="img2" src={rightimg} alt="network issue" />
            </div>    
         </div>
       </div>
+
+
     </>
   );
 };

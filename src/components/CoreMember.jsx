@@ -10,7 +10,7 @@ const Members = [
   {id:1, name:'Nikhil Singh',por:'Operations Head',pic:"members\\Nikhil singh.jpg"},
   {id:1, name:'Rambabu',por:'Operations Head',pic:"members\\Rambabu.jpg"},
   {id:1, name:'Tushar Kumar',por:'PR Head External',pic:"members\\tushar kumar pr head.jpg"},
-  {id:1, name:'Isha',por:'Creative Head',pic:"members\\Isha.jpg"},
+  {id:1, name:'Homi',por:'Creative Head',pic:"members\\Isha.jpg"},
   {id:1, name:'Nitesh Kumar',por:'Web Team Head',pic:"members\\Nitish kumar Web head.jpg"},
 ]
 

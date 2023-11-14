@@ -1,4 +1,4 @@
-.hero-section {
+/* .hero-section {
   width: 100%;
   padding: 100px;
   display: flex;
@@ -11,7 +11,6 @@
 .left {
   min-width: 500px;
   max-width: 50%;
-  /* border: 3px solid red; */
   max-height: auto;
   padding: 50px;
 }
@@ -49,7 +48,6 @@
   position: relative;
   z-index: 1;
   margin: 10px;
-  /* border-radius: 12%; */
 }
 
 .btn-pink::before {
@@ -96,7 +94,6 @@
   min-width: 500px;
   max-width: 50%;
   display: flex;
-  /* border: 2px solid blue; */
   align-items: center;
   justify-content: center;
 }
@@ -104,7 +101,7 @@
 .right-img {
   width: 500px;
   height: 500px;
-  border-radius: 100%; /* Use 50% for a perfect circle */
+  border-radius: 100%; 
   box-shadow: 2px 2px 5px 2px rgb(63, 61, 61);
   border: 2px solid rgb(239, 231, 231);
   overflow: hidden;
@@ -114,4 +111,128 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+} */
+
+/* making the webpage responsive */
+.hero-section {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(245, 245, 245);
+  gap: 10px;
+  max-height: auto;
+}
+
+.left,
+.right {
+  width: 100%; /* Set to full width on small screens */
+  padding: 15px; /* Adjust padding for smaller screens */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+@media (min-width: 768px) {
+  .left,
+  .right {
+    width: 48%;
+  }
+}
+
+.hero-heading {
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(23, 20, 20);
+}
+
+.hero-containt {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(25, 21, 21);
+}
+
+.btn-container {
+  margin-top: 5%;
+  display: flex;
+}
+
+.btn-pink {
+  background-color: #190482;
+  border: solid 3px rgb(8, 5, 0);
+  width: fit-content;
+  color: white;
+  padding: 0.8rem 2.3rem;
+  box-shadow: 5px 5px 7px 0px rgb(45, 15, 15);
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: 500;
+  border: solid 3px transparent;
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+}
+@media (max-width: 767px) {
+  .btn-pink {
+    padding: 0.5rem 1.0rem;
+    font-size: 15px;
+  }
+}
+
+.btn-pink::before {
+  content: "";
+  position: absolute;
+  background-color: #352586;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.8s;
+}
+
+.btn-pink:hover::before {
+  transform: scaleX(1);
+}
+
+.btn-pink:hover {
+  border: solid 3px #190482;
+  color: rgb(34, 26, 26);
+}
+
+.learn-btn {
+  margin-top: 15px;
+  display: flex;
+  margin-left: 30px;
+}
+
+.learn-btn span {
+  padding-top: 10px;
+  font-size: 22px;
+  padding-left: 10px;
+  font-weight: bolder;
+}
+
+.learn-btn:hover {
+  cursor: pointer;
+}
+
+.right img {
+  width: 100%;
+  height: auto;
+  transform: scale(1.2);
+}
+
+/* Additional styling for larger screens if needed */
+@media (min-width: 1200px) {
+  .hero-heading {
+    font-size: 48px;
+  }
+
+  .hero-containt {
+    font-size: 24px;
+  }
 }

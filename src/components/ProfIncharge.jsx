@@ -70,6 +70,7 @@ const ProfessorIncharge = styled.div`
 margin: 0 5% 0 5% ;
 font-family: "Inter", sans-serif;
 background-color: #f0f0f0;
+
 .detail{
   margin: auto;
   .star{
@@ -91,7 +92,7 @@ background-color: #f0f0f0;
   margin-left: 10%;
   margin-top: 5%;
   @media (max-width: 768px) {
-    width: 90%;
+    width: 80%;
     margin 5%;
   }
   .imgframe{
@@ -100,24 +101,41 @@ background-color: #f0f0f0;
     height: 350px;
     margin: auto;
     border-radius: 10px;
+    display: block;
+    @media (max-width: 768px) {
+      height: 270px;
+      width: 250px;
+     }
   }
   img{
     height: 350px;
     position: absolute;
     margin: 14px;
     bottom: 0;
+    @media (max-width: 768px) {
+      height: 250px;
+     
+    }
   }
   .side_1{
     position: absolute;
     top: -224px;
     left: -59px;
     width: 50px;
+    display: block;
+    @media (max-width: 768px) {
+      display: none;
+     }
   }
   .side_2{
     position: absolute;
     bottom: -196px;
     right: -15px;
     width: 50px;
+    display: block;
+    @media (max-width: 768px) {
+      display: none;
+     }
   }
 }
 h2{
@@ -137,8 +155,11 @@ display: flex;
 flex-direction: row;
 @media (max-width: 768px) {
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   overflow: hidden;
+  margin: 5%;
+  margin-top: 2%;
+  margin-bottom: 100px;
 }
 `;
 export default ProfIncharge;

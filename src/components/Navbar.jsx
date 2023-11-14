@@ -14,6 +14,8 @@ export const Navbar = () => {
       document.getElementById("navbar").style.height = "100vh";
       document.getElementById("menu").style.animationName = "navslide";
       document.getElementById("menu").style.left = "0%";
+      document.getElementById("menu").style.paddingBottom = "10vh";
+      document.getElementById("menu").style.paddingTop = "10vh";
       document.body.style.height="100vh";
       document.body.style.overflow="hidden";
     } else {
@@ -21,6 +23,8 @@ export const Navbar = () => {
       document.getElementById("navbar").style.height = "fit-content";
       document.getElementById("menu").style.left = "150%";
       document.getElementById("menu").style.animationName = "revnavslide";
+      document.getElementById("menu").style.paddingBottom = "0vh";
+      document.getElementById("menu").style.paddingTop = "0vh";
       document.body.style.overflow="scroll";
     }
   };
@@ -31,6 +35,8 @@ export const Navbar = () => {
       document.getElementById("navbar").style.height = "fit-content";
       document.getElementById("menu").style.left = "150%";
       document.getElementById("menu").style.animationName = "revnavslide";
+      document.getElementById("menu").style.paddingBottom = "0vh";
+      document.getElementById("menu").style.paddingTop = "0vh";
   }
   return (
     <>

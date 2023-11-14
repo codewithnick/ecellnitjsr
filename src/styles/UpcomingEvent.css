@@ -17,6 +17,12 @@
   margin-bottom: 3%; 
   perspective: 800px;
 }
+@media (max-width: 768px) {
+  .card-container{
+    width: 100%;
+  }
+ 
+}
 
 .card {
   width: calc(90% - 60px);

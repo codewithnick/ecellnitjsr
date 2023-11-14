@@ -116,7 +116,7 @@ const Text = styled.div`
   width: 40%;
   color: #0b1b35;
   @media (max-width: 768px) {
-    width: 80%;
+    width: 100%;
   }
   h2 {
     font-size: 30px;
@@ -127,6 +127,9 @@ const Text = styled.div`
   .Textbody {
     padding-top: 10px;
     width: 80%;
+    @media (max-width: 768px){
+      width: 100%;
+    }
     p {
       color: #666;
     }

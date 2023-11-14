@@ -21,6 +21,7 @@ export const Navbar = () => {
       document.getElementById("navbar").style.height = "fit-content";
       document.getElementById("menu").style.left = "150%";
       document.getElementById("menu").style.animationName = "revnavslide";
+      document.body.style.overflow="scroll";
     }
   };
   const navigatebtn=()=>{

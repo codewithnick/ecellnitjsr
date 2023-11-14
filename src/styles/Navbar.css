@@ -1,5 +1,5 @@
 #navbar {
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     background-color: #FFFFFF;
     user-select: none;
@@ -56,6 +56,9 @@
   
 /* Styles for mobile screens (max-width: 768px) */
 @media (max-width: 850px) {
+    #navbar{
+        width: 100vw;
+    }
     #temp{
         padding-left: 0;
     }
@@ -175,7 +178,7 @@
 @media (max-width: 510px){
     #navbar{
         padding: 2px 2rem;
-        width: fit-content;
+        width: 100vw;
         justify-content: space-evenly;
     }
 }

@@ -6,7 +6,7 @@ import vis from "../images/Icon/eye-solid.svg";
 
 export const VisionGoal = () => {
   return (
-    <>
+    <div style={{"backgroundColor": "#fff","paddingBottom": "30px"}}>
       <div id="visiongoal" className="center-align">
         Vision & Goals
       </div>
@@ -55,7 +55,7 @@ export const VisionGoal = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -8,16 +8,17 @@ import Side_design_1 from "../images/Design/Pro_incharge_img_1.svg"
 import Side_design_2 from "../images/Design/Pro_incharge_img_2.svg"
  
 //Image
-import DemoImage from "../images/DemoImage.png"
+import DemoImage from "../images/professorIncharge.jpg"
 
 //Icons
 import Quotes from "../images/Icon/left-quote.png"
 import Star from "../images/Icon/star.png"
 export const ProfIncharge = () => {
   return (
+    <div style={{"background": "#f0f0f0"}}>
     <ProfessorIncharge>
      
-        <h2>Professor Incharge</h2>
+        <h2 style={{"paddingTop": "40px"}}>Professor Incharge</h2>
         <PiBox>
           {/* Div that contain Professor Pic and other design*/ }
           <div className="pic">
@@ -48,8 +49,8 @@ export const ProfIncharge = () => {
             {/* Professor name and post */ }
             <Flexbox style={{"justifyContent": "space-between"}}>
               <div style={{"marginTop": "50px","width": "firContent"}}>
-              <h4 style={{"fontWeight": "500"}}>Kranti Kumar</h4>{/* Professor name*/ }
-              <h6 style={{"fontWeight": "300"}}>Post</h6>{/* Professor Post*/ }
+              <h4 style={{"fontWeight": "500"}}>Dr. Ashok Kumar Mandal</h4>{/* Professor name*/ }
+              <h6 style={{"fontWeight": "300"}}>Professor Incharge</h6>{/* Professor Post*/ }
               </div>
               <div style={{"margin": "50px 50px 0 0","width": "firContent"}}>
               
@@ -61,12 +62,14 @@ export const ProfIncharge = () => {
         </PiBox>
      
     </ProfessorIncharge>
+    </div>
   );
 };
 
 const ProfessorIncharge = styled.div`
 margin: 0 5% 0 5% ;
 font-family: "Inter", sans-serif;
+background-color: #f0f0f0;
 .detail{
   margin: auto;
   .star{
@@ -85,22 +88,23 @@ font-family: "Inter", sans-serif;
 }
 .pic{
   width: 50%;
-  margin: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
   @media (max-width: 768px) {
     width: 90%;
     margin 5%;
   }
   .imgframe{
     position: relative;
-    background: #190482;
     width: 330px;
     height: 350px;
     margin: auto;
     border-radius: 10px;
   }
   img{
-    height: 400px;
+    height: 350px;
     position: absolute;
+    margin: 14px;
     bottom: 0;
   }
   .side_1{
@@ -111,8 +115,8 @@ font-family: "Inter", sans-serif;
   }
   .side_2{
     position: absolute;
-    bottom: -224px;
-    right: -59px;
+    bottom: -196px;
+    right: -15px;
     width: 50px;
   }
 }

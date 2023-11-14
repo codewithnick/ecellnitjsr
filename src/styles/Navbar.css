@@ -58,8 +58,6 @@
 @media (max-width: 850px) {
     #navbar{
         width: 100vw;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
     }
     #temp{
         padding-left: 0;
@@ -182,8 +180,6 @@
     #navbar{
         padding: 2px 2rem;
         width: 100vw;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
         justify-content: space-evenly;
     }
 }

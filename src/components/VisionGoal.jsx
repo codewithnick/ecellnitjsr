@@ -31,7 +31,7 @@ export const VisionGoal = () => {
             <div className="content">
               <h3>Goal</h3>
               <p>
-              We encourage students by educating them about diverse fields and their roles right from ideation to operation.
+              To encourage students by educating them about diverse fields and their roles right from ideation to operation.
               </p>
               <a href="/">Read More</a>
             </div>
@@ -45,7 +45,7 @@ export const VisionGoal = () => {
              
               <h3>Vision</h3>
               <p>
-              We envisions a lively environment where students can explore their entrepreneurial talents. We aim to foster a culture of creativity and innovation, offering support, mentorship, and opportunities for students to turn their ideas into successful ventures.
+              We envision a lively environment where students can explore their entrepreneurial talents. We aim to foster a culture of creativity and innovation, offering support, mentorship, and opportunities for students to turn their ideas into successful ventures.
               </p>
               <a href="/">Read More</a>
             </div>

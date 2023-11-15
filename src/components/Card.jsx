@@ -17,7 +17,7 @@ const Card = ({ color,TextColor,imageSrc,title, text, link }) => {
           <h2 style={{color: "white"}}>{title}</h2>
           <div className="line"></div>
           <p style={{color: "white"}}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, doloremque!
+            {text}
           </p>
         </div>
         <div className="imgContainer"><img src={imageSrc} alt={text} className="card-image" /></div>
@@ -39,7 +39,7 @@ border: 1px solid #cac6c6;
 overflow: hidden;
 position: relative;
 .EventText{
-  width: 60%;
+  width: 50%;
   padding: 30px;
   @media (max-width: 768px){
     width: 80%;

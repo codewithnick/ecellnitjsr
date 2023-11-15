@@ -20,9 +20,11 @@ export const HeroSection = () => {
 
           <div className="hero-containt">
             <div>
-              Our goal is top at the heart of the creativity service
+            Empowering dreams, igniting Innovation 
             </div>
-            <div>industry as a digital creator. In has a after comment</div>
+            <div>E-Cell is your catalyst for entrepreneurial success,</div>
+            <div>  dare to dream, dare to disrupt!
+</div>
           </div>
 
           <div className="btn-container">

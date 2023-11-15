@@ -17,7 +17,7 @@ function Footer() {
       <div className="logo">
         <div>
           <img src={Logo} alt="Logo" style={{"width": "150px"}}/><br/>
-          <h3>Enterpeniour Society</h3>
+          <h3>Entrepreneurship Cell</h3>
           <h3>National Institute of Technology</h3>
           </div>
           <div> 
@@ -32,26 +32,29 @@ function Footer() {
       <div className="Footer_nav">
           <table>
             <tr>
-              <th>Company</th>
-              <th>Product</th>
-              <th>Resources</th>
+              <th>About</th>
+              <th>Team</th>
+              <th>Events</th>
               <th>Contact us</th>
             </tr>
             <tr>
-              <td><Link to="/Aboutus">About Us</Link></td>
-              <td><Link to="/Invoicing">Invoicing</Link></td>
-              <td><Link to="/template">Template</Link></td>
-              <td> <FontAwesomeIcon icon={faMessage} style={{"margin": "5px"}}/>info@ecellnitjsr.com</td>
+              <td><Link to="#Aboutus_mission">Mission</Link></td>
+              <td><Link to="/teams">Team Member</Link></td>
+              <td><Link to="/events#Upcoming">Upcoming Event</Link></td>
+              <td><Link to="/contactus#LetTalk">Ask a query</Link></td>
+              
             </tr>
             <tr>
-              <td><Link to="/Careers">Careers</Link></td>
-              <td><Link to="/Contract">Contract</Link></td>
-              <td><Link to="/Intemplate">Invoicing Template</Link></td>
+              <td><Link to="/#About_vision">Vision</Link></td>
+              <td><Link to="/team">Gallery</Link></td>
+              <td><Link to="/events#pastEvent">Past Event</Link></td>
               <td> <FontAwesomeIcon icon={faPhone} style={{"margin": "5px"}}/>+91 9876543210</td>
             </tr>
             <tr>
-              <td><Link to="/Blog">Blog</Link></td>
-              <td><Link to="/Accouncting">Accouncting</Link></td>
+              <td><Link to="/#About_goal">Goal</Link></td>
+              <td></td>
+              <td></td>
+              <td> <FontAwesomeIcon icon={faMessage} style={{"margin": "5px"}}/>info@ecellnitjsr.com</td>
             </tr>
           </table>    
       </div>

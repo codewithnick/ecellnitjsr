@@ -13,7 +13,7 @@ const cardsData = [
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id='Upcoming'>
       <h1>Upcoming Events</h1>
       <div className="card-container">
         {cardsData.map((card) => (

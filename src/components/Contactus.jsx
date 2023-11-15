@@ -7,32 +7,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faBuilding,faEnvelope, faCommentDots, faUsersRectangle,faArrowRight} from "@fortawesome/free-solid-svg-icons";
 export const Contactus = () => {
   return (
-    <div style={{"backgroundColor": "#f0f0f0","padding": "10px"}}>
-      <Aboutus>
-        <h2>About us</h2>
-        <p>
-          E-Cell NIT Jamshedpur is an independent student run body operating in
-          the premises of NIT Jamshedpur. We have embarked on a journey to
-          develop and nurture an entrepreneurial spirit in students by
-          familiarising them with the skills and fundas of entrepreneurship. We
-          strive to develop a keen sense of business understanding in the
-          students and therefore train them to identify potential opportunities
-          in the modern world.
-        </p>
-      </Aboutus>
+    <div style={{"backgroundColor": "#f0f0f0","padding": "10px"}} id="LetTalk">
       <RegisterBox style={{ padding: "5%" }}>
         {/*/Text is a div that contain all the social media link */}
         <Text>
           <div className="TextHeader">
-            <h2>Let's Work</h2>
-            <h2>Together!</h2>
+            <h2>Get in Touch with the E-Cell</h2>
           </div>
           <div className="Textbody">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
-              veritatis porro nisi est deserunt iure quidem, in ex non
-              asperiores!
-            </p>
+            Welcome to the Entrepreneurship Cell at National institue of technology Jamshedpur! We value your interest and inquiries. Whether you're a student, an aspiring entrepreneur, or a potential collaborator, we're here to assist you.            </p>
             {/*/Icon with Links */}
             <div className="Contact_info">
               <Flexbox>
@@ -75,7 +59,7 @@ export const Contactus = () => {
             </div>
             <div style={{ position: "relative", width: "max-content" }}>
             <FontAwesomeIcon icon={faArrowRight} className="SubmitArrow"/>
-              <input type="submit" value="Let Talk" />
+              <input type="submit" value="Submit" />
             </div>
           </form>
         </RegisterForm>
@@ -116,7 +100,7 @@ const Text = styled.div`
   width: 40%;
   color: #0b1b35;
   @media (max-width: 768px) {
-    width: 80%;
+    width: 100%;
   }
   h2 {
     font-size: 30px;
@@ -127,6 +111,9 @@ const Text = styled.div`
   .Textbody {
     padding-top: 10px;
     width: 80%;
+    @media (max-width: 768px){
+      width: 100%;
+    }
     p {
       color: #666;
     }
@@ -206,6 +193,5 @@ const RegisterForm = styled.div`
     color: white;
     
   }
- 
 `;
 export default Contactus;

@@ -11,13 +11,7 @@ export const Contactus = () => {
       <Aboutus>
         <h2>About us</h2>
         <p>
-          E-Cell NIT Jamshedpur is an independent student run body operating in
-          the premises of NIT Jamshedpur. We have embarked on a journey to
-          develop and nurture an entrepreneurial spirit in students by
-          familiarising them with the skills and fundas of entrepreneurship. We
-          strive to develop a keen sense of business understanding in the
-          students and therefore train them to identify potential opportunities
-          in the modern world.
+        E-Cell NIT Jamshedpur is an independent student run body operating in the premises of NIT Jamshedpur. It was constituted under the aegis of Institution’s Innovation Council (Research & Consultancy division) of NIT Jamshedpur. The mandate of E-Cell is to create and maintain an environment that will encourage Entrepreneurship and Innovation amongst the students. We help students in developing their entrepreneurship skills & create enthusiasm towards the start-up ecosystem by means of engaging activities like Guest Lectures, Panel Discussions, Business Plan/Model and Idea Pitching sessions. E-Cell NIT Jamshedpur is a team of hardworking and goal-oriented individuals, devoted to empowering students in field of entrepreneurship.
         </p>
       </Aboutus>
       <RegisterBox style={{ padding: "5%" }}>
@@ -29,9 +23,7 @@ export const Contactus = () => {
           </div>
           <div className="Textbody">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla
-              veritatis porro nisi est deserunt iure quidem, in ex non
-              asperiores!
+            Let's join forces with the E-Cell to cultivate innovation and entrepreneurial excellence. Together, we can create a vibrant ecosystem that empowers students, providing mentorship and resources to turn ideas into successful ventures. Our collaboration fosters a dynamic environment where creativity thrives, shaping the next generation of entrepreneurs. Join us in building a community that embraces innovation, takes risks, and contributes to positive societal and economic impact. Together with the E-Cell, let's inspire and support the entrepreneurial journey.
             </p>
             {/*/Icon with Links */}
             <div className="Contact_info">

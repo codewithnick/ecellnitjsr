@@ -38,7 +38,7 @@ function Footer() {
               <th>Contact us</th>
             </tr>
             <tr>
-              <td><Link to="#Aboutus_mission">Mission</Link></td>
+              <td><Link to="/#Aboutus_mission">Mission</Link></td>
               <td><Link to="/teams">Team Member</Link></td>
               <td><Link to="/events#Upcoming">Upcoming Event</Link></td>
               <td><Link to="/contactus#LetTalk">Ask a query</Link></td>
@@ -46,7 +46,7 @@ function Footer() {
             </tr>
             <tr>
               <td><Link to="/#About_vision">Vision</Link></td>
-              <td><Link to="/team">Gallery</Link></td>
+              <td><Link to="/teams">Gallery</Link></td>
               <td><Link to="/events#pastEvent">Past Event</Link></td>
               <td> <FontAwesomeIcon icon={faPhone} style={{"margin": "5px"}}/>+91 9876543210</td>
             </tr>

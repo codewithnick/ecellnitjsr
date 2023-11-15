@@ -43,7 +43,8 @@ export const ProfIncharge = () => {
            <img src={Star} alt="Star" />
            </Flexbox>
            {/* Professor details*/ }
-            <p style={{"fontWeight": "500"}}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At explicabo dolorem sequi molestiae distinctio molestias earum quas eius quis delectus!</p>
+            <p style={{"fontWeight": "500"}}>
+            As the Professor Incharge of the E-Cell at NIT, I take pride in witnessing our students' entrepreneurial journey. The E-Cell is a catalyst for innovation, fostering a culture where students explore and unleash their entrepreneurial potential. We're dedicated to providing a nurturing environment with mentorship, resources, and opportunities, empowering students to turn their ideas into successful ventures.              </p>
            
            
             {/* Professor name and post */ }

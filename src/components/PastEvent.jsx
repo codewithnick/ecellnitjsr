@@ -47,7 +47,7 @@ const PastEvent = () => {
   return (
     <>
       
-    <div className="pasteventimg">
+    <div className="pasteventimg" id="pastEvent">
     <header>
         <h1>E-Cell Events</h1>
       </header>

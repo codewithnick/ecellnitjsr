@@ -6,49 +6,46 @@ import vis from "../images/Icon/eye-solid.svg";
 
 export const VisionGoal = () => {
   return (
-    <div style={{"backgroundColor": "#fff","paddingBottom": "30px"}}>
+    <div style={{"backgroundColor": "#fff","paddingBottom": "30px"}} id="About_vision">
       <div id="visiongoal" className="center-align">
         Vision & Goals
       </div>
 
       <div className="container">
-        <div className="card">
+        <div className="card" id="About_mission">
           <div className="box">
             <img src={mis} alt="" />
             <div className="content">
               <h3>Mission</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-                totam velit? Iure nemo labore inventore?
+              To spread awareness about India's growing start-up ecosystem and expose students to its nuances thereby developing an entrepreneurial spirit in the students.
               </p>
               <a href="/">Read More</a>
             </div>
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" id="About_goal">
           <div className="box">
           <img src={tmp} alt="" />
             <div className="content">
               <h3>Goal</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-                totam velit? Iure nemo labore inventore?
+              To encourage students by educating them about diverse fields and their roles right from ideation to operation.
               </p>
               <a href="/">Read More</a>
             </div>
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" id="About_vision">
           <div className="box">
           <img src={vis} alt="" />
             <div className="content">
              
               <h3>Vision</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-                totam velit? Iure nemo labore inventore?
+              We envision a lively environment where students can explore their entrepreneurial talents. We aim to foster a culture of creativity and innovation, offering support, mentorship, and opportunities for students to turn their ideas into successful ventures.
               </p>
               <a href="/">Read More</a>
             </div>

@@ -15,7 +15,7 @@ export const Navbar = () => {
       document.getElementById("menu").style.animationName = "navslide";
       document.getElementById("menu").style.left = "0%";
       document.getElementById("menu").style.paddingBottom = "10vh";
-      document.getElementById("menu").style.paddingTop = "10vh";
+      document.getElementById("menu").style.paddingTop = "5vh";
       document.body.style.height="100vh";
       document.body.style.overflow="hidden";
     } else {

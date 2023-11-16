@@ -27,9 +27,11 @@ const About = () => {
   }, []);
   return (
     <div>
+      {/*
       <Background>
         <div class="blob"></div>
       </Background>
+      */}
       <AboutContent>
         <Flexbox>
           <div>

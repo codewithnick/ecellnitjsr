@@ -8,12 +8,6 @@ import { faPhone, faBuilding,faEnvelope, faCommentDots, faUsersRectangle,faArrow
 export const Contactus = () => {
   return (
     <div style={{"backgroundColor": "#f0f0f0","padding": "10px"}}>
-      <Aboutus>
-        <h2>About us</h2>
-        <p>
-        E-Cell NIT Jamshedpur is an independent student run body operating in the premises of NIT Jamshedpur. It was constituted under the aegis of Institution’s Innovation Council (Research & Consultancy division) of NIT Jamshedpur. The mandate of E-Cell is to create and maintain an environment that will encourage Entrepreneurship and Innovation amongst the students. We help students in developing their entrepreneurship skills & create enthusiasm towards the start-up ecosystem by means of engaging activities like Guest Lectures, Panel Discussions, Business Plan/Model and Idea Pitching sessions. E-Cell NIT Jamshedpur is a team of hardworking and goal-oriented individuals, devoted to empowering students in field of entrepreneurship.
-        </p>
-      </Aboutus>
       <RegisterBox style={{ padding: "5%" }}>
         {/*/Text is a div that contain all the social media link */}
         <Text>
@@ -29,7 +23,7 @@ export const Contactus = () => {
             <div className="Contact_info">
               <Flexbox>
                 <FontAwesomeIcon icon={faEnvelope} className="links"/>
-                <h4>info@ecellnitjsr.com</h4>
+                <h4>ecell@nitjsr.ac.in</h4>
               </Flexbox>
               <Flexbox> 
                 <FontAwesomeIcon icon={faBuilding} className="links"/>

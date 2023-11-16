@@ -27,7 +27,7 @@ const Card = ({ color,TextColor,imageSrc,title, text, link }) => {
 };
 
 const CardDiv = styled.div`
-width: calc(90% - 60px);
+width: 100%;
 height: 400px;
 display: flex;
 padding: 10px;
@@ -63,12 +63,14 @@ position: relative;
   bottom: -20px;
   right: 20px;
   width:50%;
+  max-height: 60%;
   @media (max-width: 768px){
     width: 80%;
   }
 }
 img {
   max-width: 100%;
+  height: 100%;
   height: auto;
   object-fit: cover;
   transform-origin: center; 

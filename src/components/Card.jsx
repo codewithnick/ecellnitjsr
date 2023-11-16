@@ -27,7 +27,7 @@ const Card = ({ color,TextColor,imageSrc,title, text, link }) => {
 };
 
 const CardDiv = styled.div`
-width: calc(90% - 60px);
+width: 100%;
 height: 400px;
 display: flex;
 padding: 10px;
@@ -38,6 +38,12 @@ cursor: pointer;
 border: 1px solid #cac6c6;
 overflow: hidden;
 position: relative;
+@media (max-width: 768px){
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  height: 475px;
+}
 .EventText{
   width: 50%;
   padding: 30px;
@@ -63,12 +69,15 @@ position: relative;
   bottom: -20px;
   right: 20px;
   width:50%;
+  max-height: 60%;
   @media (max-width: 768px){
     width: 80%;
+    max-height: 48%;
   }
 }
 img {
   max-width: 100%;
+  height: 100%;
   height: auto;
   object-fit: cover;
   transform-origin: center; 

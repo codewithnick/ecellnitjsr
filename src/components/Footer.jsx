@@ -21,11 +21,10 @@ function Footer() {
           <h3>National Institute of Technology</h3>
           </div>
           <div> 
-          <FontAwesomeIcon icon={faLinkedin} className="links"/>
-          <FontAwesomeIcon icon={faFacebookMessenger} className="links"/>
-          <FontAwesomeIcon icon={faXTwitter} className="links"/>
-          <FontAwesomeIcon icon={faInstagram} className="links"/>
-          <FontAwesomeIcon icon={faYoutube} className="links"/>
+         <a href="https://www.linkedin.com/company/e-cell-nit-jamshedpur1234/"><FontAwesomeIcon icon={faLinkedin} className="links"/></a> 
+          <a href="https://www.facebook.com/entrepreneurship.cell.nit.jsr"><FontAwesomeIcon icon={faFacebookMessenger} className="links"/></a>
+          <a href="https://instagram.com/ecell.nitjsr?igshid=NGVhN2U2NjQ0Yg"><FontAwesomeIcon icon={faInstagram} className="links"/></a>
+          <a href="https://www.youtube.com/@e-cellnitjamshedpur"><FontAwesomeIcon icon={faYoutube} className="links"/></a>
           </div>
           
       </div>

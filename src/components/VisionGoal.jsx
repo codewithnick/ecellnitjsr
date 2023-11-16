@@ -3,7 +3,7 @@ import "../styles/VisionGoal.css";
 import tmp from "../images/Icon/goal .png";
 import mis from "../images/Icon/crosshairs-solid.svg";
 import vis from "../images/Icon/eye-solid.svg";
-
+import { Link } from "react-router-dom";
 export const VisionGoal = () => {
   return (
     <div style={{"backgroundColor": "#fff","paddingBottom": "30px"}} id="About_vision">
@@ -20,7 +20,7 @@ export const VisionGoal = () => {
               <p>
               To spread awareness about India's growing start-up ecosystem and expose students to its nuances thereby developing an entrepreneurial spirit in the students.
               </p>
-              <a href="/">Read More</a>
+              <Link to='/aboutus'>Read More</Link>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ export const VisionGoal = () => {
               <p>
               To encourage students by educating them about diverse fields and their roles right from ideation to operation.
               </p>
-              <a href="/">Read More</a>
+              <Link to='/aboutus'>Read More</Link>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export const VisionGoal = () => {
               <p>
               We envision a lively environment where students can explore their entrepreneurial talents. We aim to foster a culture of creativity and innovation, offering support, mentorship, and opportunities for students to turn their ideas into successful ventures.
               </p>
-              <a href="/">Read More</a>
+              <Link to='/aboutus'>Read More</Link>
             </div>
           </div>
         </div>

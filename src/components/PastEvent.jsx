@@ -49,7 +49,7 @@ const PastEvent = () => {
       
     <div className="pasteventimg" id="pastEvent">
     <header>
-        <h1>E-Cell Events</h1>
+        <h2>E-Cell Events</h2>
       </header>
       <div id="carouselExampleIndicators" className="carousel-container">
         <div className="carousel-inner">

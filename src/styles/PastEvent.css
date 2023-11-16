@@ -5,9 +5,12 @@ header {
   text-align: center;
 }
 
-h1 {
-  font-size: 2rem;
-  margin: 0;
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 7px;
+  padding-bottom: 27px;
+  margin: 10px;
 }
 .pasteventimg{
   background-color: #f0f0f0;

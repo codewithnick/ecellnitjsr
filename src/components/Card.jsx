@@ -38,6 +38,12 @@ cursor: pointer;
 border: 1px solid #cac6c6;
 overflow: hidden;
 position: relative;
+@media (max-width: 768px){
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  height: 475px;
+}
 .EventText{
   width: 50%;
   padding: 30px;
@@ -66,6 +72,7 @@ position: relative;
   max-height: 60%;
   @media (max-width: 768px){
     width: 80%;
+    max-height: 48%;
   }
 }
 img {

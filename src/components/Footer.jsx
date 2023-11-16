@@ -47,7 +47,7 @@ function Footer() {
               <td><Link to="/#About_vision">Vision</Link></td>
               <td><Link to="/teams">Gallery</Link></td>
               <td><Link to="/events#pastEvent">Past Event</Link></td>
-              <td> <FontAwesomeIcon icon={faPhone} style={{"margin": "5px"}}/>+91 9876543210</td>
+              <td> <FontAwesomeIcon icon={faPhone} style={{"margin": "5px"}}/>+91 9559754134</td>
             </tr>
             <tr>
               <td><Link to="/#About_goal">Goal</Link></td>

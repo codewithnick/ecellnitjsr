@@ -31,7 +31,7 @@ export const Contactus = () => {
               </Flexbox>
               <Flexbox>
               <FontAwesomeIcon icon={faPhone} className="links"/>
-                <h4>+91 9876543210</h4>
+                <h4>+91 9559754134</h4>
               </Flexbox>
             </div>
           </div>

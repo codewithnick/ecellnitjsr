@@ -12,9 +12,7 @@
     font-family: 'Be Vietnam Pro', sans-serif;
     overflow: hidden;
 }
-#temp{
-    padding-left: 11rem;
-}
+
 #reg-hum{
     display: none ;
     gap: 5px;

@@ -51,11 +51,7 @@ export const ProfIncharge = () => {
             <Flexbox style={{"justifyContent": "space-between"}}>
               <div style={{"marginTop": "50px","width": "firContent"}}>
               <h4 style={{"fontWeight": "500"}}>Dr. Ashok Kumar Mandal</h4>{/* Professor name*/ }
-              <h6 style={{"fontWeight": "300"}}>Professor Incharge</h6>{/* Professor Post*/ }
-              </div>
-              <div style={{"margin": "50px 50px 0 0","width": "firContent"}}>
-              
-              <h3 style={{"fontWeight": "500","fontSize": "20px"}}>Ecell</h3>{/* Ecell :-)*/ }
+              <h6 style={{"fontWeight": "300"}}>Professor Incharge, Ecell</h6>{/* Professor Post*/ }
               </div>
             </Flexbox>
             </div>

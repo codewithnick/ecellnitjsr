@@ -5,9 +5,12 @@ header {
   text-align: center;
 }
 
-h1 {
-  font-size: 2rem;
-  margin: 0;
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 7px;
+  padding-bottom: 27px;
+  margin: 10px;
 }
 .pasteventimg{
   background-color: #f0f0f0;
@@ -73,7 +76,9 @@ h1 {
   .carousel-caption {
     display: block;
   }
+
 }
+
 
 /* Custom styles for the carousel indicators */
 .carousel-indicators {
@@ -124,4 +129,15 @@ z-index: 1;
 
 .carousel-control-next {
   right: 19%;
+}
+@media (max-width: 768px){
+  .carousel-container{
+    width: 90vw;
+  }
+  .carousel-control-next{
+    right: 6%;
+  }
+  .carousel-control-prev{
+    left: 6%;
+  }
 }

@@ -13,17 +13,16 @@ export const HeroSection = () => {
       <div className="hero-section">
         <div className="left">
           <div className="hero-heading">
-            <div>We boost </div>
-            <div>growth for your</div>
-            <div>startup business</div>
+            <div>We Boost </div>
+            <div>Your Startup</div>
           </div>
 
           <div className="hero-containt">
-            <div>
+            <div style={{"fontWeight": 500}}>
             Empowering dreams, igniting Innovation 
             </div>
-            <div>E-Cell is your catalyst for entrepreneurial success,</div>
-            <div>  dare to dream, dare to disrupt!
+            <div  style={{"fontWeight": 500}}>E-Cell is your catalyst for entrepreneurial success,</div>
+            <div  style={{"fontWeight": 500}}>  dare to dream, dare to disrupt!
 </div>
           </div>
 

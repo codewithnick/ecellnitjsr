@@ -73,7 +73,9 @@ h1 {
   .carousel-caption {
     display: block;
   }
+
 }
+
 
 /* Custom styles for the carousel indicators */
 .carousel-indicators {
@@ -124,4 +126,15 @@ z-index: 1;
 
 .carousel-control-next {
   right: 19%;
+}
+@media (max-width: 768px){
+  .carousel-container{
+    width: 90vw;
+  }
+  .carousel-control-next{
+    right: 6%;
+  }
+  .carousel-control-prev{
+    left: 6%;
+  }
 }

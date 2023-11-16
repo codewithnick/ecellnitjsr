@@ -11,6 +11,7 @@ import Contactus from "./components/Contactus";
 import Register from "./components/Register";
 import Footer from "./components/Footer";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import About from './components/About';
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,14 @@ const router = createBrowserRouter([
     element: <>
       <Navbar />
       <Contactus />
+      <Footer />
+    </>
+  },
+  {
+    path: '/Aboutus',
+    element: <>
+      <Navbar />
+      <About />
       <Footer />
     </>
   },

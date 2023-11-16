@@ -57,11 +57,14 @@ export const Navbar = () => {
             <Link onClick={navigatebtn} className="nav-links" to="/teams">
               Team
             </Link>
-           {/*
+         
               <Link onClick={navigatebtn} className="nav-links" to="/contactus">
                   Contact Us
               </Link> 
-            */} 
+              <Link onClick={navigatebtn} className="nav-links" to="/aboutus">
+                  About Us
+              </Link> 
+            
           </div>
           <div>
             <Link onClick={navigatebtn} to="/register">

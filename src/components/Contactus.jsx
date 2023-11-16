@@ -21,7 +21,7 @@ export const Contactus = () => {
             <div className="Contact_info">
               <Flexbox>
                 <FontAwesomeIcon icon={faEnvelope} className="links"/>
-                <h4>info@ecellnitjsr.com</h4>
+                <h4>ecell@nitjsr.ac.in</h4>
               </Flexbox>
               <Flexbox> 
                 <FontAwesomeIcon icon={faBuilding} className="links"/>

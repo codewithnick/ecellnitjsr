@@ -53,7 +53,7 @@ function Footer() {
               <td><Link to="/#About_goal">Goal</Link></td>
               <td></td>
               <td></td>
-              <td> <FontAwesomeIcon icon={faMessage} style={{"margin": "5px"}}/>info@ecellnitjsr.com</td>
+              <td> <FontAwesomeIcon icon={faMessage} style={{"margin": "5px"}}/>ecell@nitjsr.ac.in</td>
             </tr>
           </table>    
       </div>

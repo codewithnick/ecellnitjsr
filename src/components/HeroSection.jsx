@@ -1,4 +1,5 @@
 import React from "react";
+import Bobble from '../images/fanStoreLogo.png'
 import "../styles/HeroSection.css";
 
 import rightimg from "../images/banner-image.png";
@@ -40,11 +41,15 @@ export const HeroSection = () => {
             </div>
             {/* <div class="btn-pink" id="btn">Learn More</div> */}
           </div>
+          
         </div>
 
         <div className="right">
             <img id="img2" src={rightimg} alt="network issue" />      
         </div>
+      </div>
+      <div className="flexbox">
+           <a href="https://fanstore.bobble.ai/" target="/"> <img src={Bobble} alt="Merchandise_partner" style={{height: "80px",transform: "translateY(-50px)"}} className="bobble"/></a>
       </div>
     </>
   );

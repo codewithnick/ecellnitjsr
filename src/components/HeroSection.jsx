@@ -48,8 +48,9 @@ export const HeroSection = () => {
             <img id="img2" src={rightimg} alt="network issue" />      
         </div>
       </div>
-      <div className="flexbox">
-           <a href="https://fanstore.bobble.ai/" target="/"> <img src={Bobble} alt="Merchandise_partner" style={{height: "80px",transform: "translateY(-50px)"}} className="bobble"/></a>
+      <div className="flexbox" style={{padding: "30px"}}>
+      <h2 style={{fontWeight: "500",margin: "0", paddingBottom: "0", paddingRight: "30px",fontSize: "22px"}}>MERCHANDISE  &nbsp; PARTNER</h2>
+           <a href="https://fanstore.bobble.ai/" target="/"> <img src={Bobble} alt="Merchandise_partner" style={{height: "50px"}} className="bobble"/></a>
       </div>
     </>
   );

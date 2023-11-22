@@ -49,8 +49,8 @@ export const HeroSection = () => {
         </div>
       </div>
       <div className="flexbox" style={{padding: "30px"}}>
-      <h2 style={{fontWeight: "500",margin: "0", paddingBottom: "0", paddingRight: "30px",fontSize: "22px"}}>MERCHANDISE  &nbsp; PARTNER</h2>
-           <a href="https://fanstore.bobble.ai/" target="/"> <img src={Bobble} alt="Merchandise_partner" style={{height: "50px"}} className="bobble"/></a>
+      <h2 style={{fontWeight: "500",margin: "0", paddingBottom: "0", paddingRight: "80px",fontSize: "22px"}}>MERCHANDISE PARTNER</h2>
+           <a href="https://fanstore.bobble.ai/" target="/"> <img src={Bobble} alt="Merchandise_partner" style={{height: "60px",width: "150px"}} className="bobble"/></a>
       </div>
     </>
   );

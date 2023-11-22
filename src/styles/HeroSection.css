@@ -117,11 +117,18 @@
 .hero-section {
   width: 100%;
   padding: 50px;
+  padding-bottom: 0;
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(245, 245, 245);
   gap: 10px;
   max-height: auto;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .left,

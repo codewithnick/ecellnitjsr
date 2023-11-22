@@ -1,4 +1,84 @@
-import React from "react";
+import React from 'react'
+import Professor1 from "../images/professorIncharge.jpg"
+import Professor2 from "../images/ranjitprashad.png"
+import Professor3 from "../images/RamKrishna.jpg"
+import Professor4 from "../images/kanika.jpg"
+import styled from 'styled-components'
+const ProfIncharge = () => {
+  return (
+    <Professors>
+      <h2>Special Thanks</h2>
+    <div className="professorImage">
+      <div>
+        <img src={Professor1} alt="" />
+        <h3>Dr. Ashok Mandal</h3>
+      </div>
+      <div>
+        <img src={Professor2} alt="" />
+        <h3>Dr. Ranjit Prasad</h3>
+      </div>
+      <div>
+        <img src={Professor3} alt="" />
+        <h3>Dr. Ram Krishna</h3>
+      </div>
+      <div>
+        <img src={Professor4} alt="" />
+        <h3>Dr. Kanika Prasad</h3>
+      </div>
+    </div>
+    <div className="professorLines">
+      <p> 
+          Team E-Cell extends our heartfelt gratitude for your unwavering support and guidance in making our event, Business Conclave 2023, a resounding success.
+      </p>
+    </div>
+    </Professors>
+  )
+}
+const Professors = styled.div`
+width: 80%;
+margin: auto;
+padding-bottom: 100px;
+@media (max-width: 400px){
+  width: 96%;
+}
+h2,h3{
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+h3{
+  @media (max-width: 400px){
+    font-size: 11px;
+  }
+}
+.professorImage{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-between;
+  img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    @media (max-width: 900px){
+      height: 200px;
+      width: 200px;
+    }
+    @media (max-width: 400px){
+      height: 100px;
+      width: 100px;
+    }
+  }
+}
+`;
+export default ProfIncharge
+
+
+
+
+/*
+ 
+ import React from "react";
 //for CSS
 import styled from "styled-components";
 import "../styles/ProfIncharge.css";
@@ -20,7 +100,7 @@ export const ProfIncharge = () => {
      
         <h2 style={{"paddingTop": "40px"}}>Professor Incharge</h2>
         <PiBox>
-          {/* Div that contain Professor Pic and other design*/ }
+          {/* Div that contain Professor Pic and other design*/ /*}
           <div className="pic">
             <div className="imgframe">
             <img src={Side_design_1} alt="none" className="side_1" />
@@ -30,11 +110,11 @@ export const ProfIncharge = () => {
             
           </div>
 
-          {/* Div that contain Professor details and other design*/ }
+          {/* Div that contain Professor details and other design*/ /*}
           <div className="detail">
            <img src={Quotes} alt="Quotes" /><br/>
 
-           {/* This star contain all the stars */ }
+           {/* This star contain all the stars */ /*}
            <Flexbox className="star">
            <img src={Star} alt="Star" />
            <img src={Star} alt="Star" />
@@ -42,16 +122,16 @@ export const ProfIncharge = () => {
            <img src={Star} alt="Star" />
            <img src={Star} alt="Star" />
            </Flexbox>
-           {/* Professor details*/ }
+           {/* Professor details*/ /*}
             <p style={{"fontWeight": "500"}}>
             As the Professor Incharge of the E-Cell at NIT, I take pride in witnessing our students' entrepreneurial journey. The E-Cell is a catalyst for innovation, fostering a culture where students explore and unleash their entrepreneurial potential. We're dedicated to providing a nurturing environment with mentorship, resources, and opportunities, empowering students to turn their ideas into successful ventures.              </p>
            
            
-            {/* Professor name and post */ }
+            {/* Professor name and post */ /*}
             <Flexbox style={{"justifyContent": "space-between"}}>
               <div style={{"marginTop": "50px","width": "firContent"}}>
-              <h4 style={{"fontWeight": "500"}}>Dr. Ashok Kumar Mandal</h4>{/* Professor name*/ }
-              <h6 style={{"fontWeight": "300"}}>Professor Incharge, Ecell</h6>{/* Professor Post*/ }
+              <h4 style={{"fontWeight": "500"}}>Dr. Ashok Kumar Mandal</h4>{/* Professor name*/ /*}
+              <h6 style={{"fontWeight": "300"}}>Professor Incharge, Ecell</h6>{/* Professor Post*/ /*}
               </div>
             </Flexbox>
             </div>
@@ -160,3 +240,5 @@ flex-direction: row;
 }
 `;
 export default ProfIncharge;
+
+ */

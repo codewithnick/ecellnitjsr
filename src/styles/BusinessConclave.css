@@ -78,13 +78,14 @@ h1 {
 
 .card-info {
     position: absolute;
+    
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(35, 34, 34, 0.9);
     color: #fff;
-    padding: 10px;
+    padding: 30px;
     box-sizing: border-box;
     opacity: 0;
     transition: opacity 0.3s;
@@ -103,8 +104,8 @@ h1 {
     padding: 5px;
 }
 .button-42 {
-    background-color: initial;
-    background-image: linear-gradient(-180deg, #190482, #1e75f8);
+    background-color: #190482;
+    background-image:  #190482;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
     color: #FFFFFF;

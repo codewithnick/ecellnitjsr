@@ -70,54 +70,30 @@ const PastEvent = () => {
               src={mock2}
               alt="image 2"
             />
-            {/* <div className="carousel-caption">
-              <h5>This is event 2 </h5>
-              <p>We add something big in this event</p>
-            </div> */}
           </div>
           <div className="carousel-item">
             <img
               className="pastEvents"
               src={prompteng}alt="image 3"
-            />
-            {/* <div className="carousel-caption">
-              <h5>This is event 3 </h5>
-              <p>We add something big in this event</p>
-            </div> */}
-          </div>
+            /></div>
           <div className="carousel-item">
             <img
               className="pastEvents"
               src={bizbooost}
               alt="image 1"
-            />
-            {/* <div className="carousel-caption">
-              <h5>This is event 1 </h5>
-              <p>We add something big in this event</p>
-            </div> */}
-          </div>
+            /></div>
           <div className="carousel-item">
             <img
               className="pastEvents"
               src={caseathon}
               alt="image 2"
-            />
-            {/* <div className="carousel-caption">
-              <h5>This is event 2 </h5>
-              <p>We add something big in this event</p>
-            </div> */}
-          </div>
+            /></div>
           <div className="carousel-item">
             <img
               className="pastEvents"
               src={supplychain}
               alt="image 3"
-            />
-            {/* <div className="carousel-caption">
-              <h5>This is event 3 </h5>
-              <p>We add something big in this event</p>
-            </div> */}
-          </div>
+            /></div>
         </div>
       </div>
        <ul className="carousel-indicators">

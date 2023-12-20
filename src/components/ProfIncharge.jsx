@@ -8,11 +8,11 @@ import Side_design_1 from "../images/Design/Pro_incharge_img_1.svg"
 import Side_design_2 from "../images/Design/Pro_incharge_img_2.svg"
  
 //Image
-import DemoImage from "../images/DemoImage.png"
+import DemoImage from "../images/DemoImage.webp"
 
 //Icons
-import Quotes from "../images/Icon/left-quote.png"
-import Star from "../images/Icon/star.png"
+import Quotes from "../images/Icon/left-quote-6581b80e9850f.webp"
+import Star from "../images/Icon/star-6581b871f203b.webp"
 export const ProfIncharge = () => {
   return (
     <ProfessorIncharge>

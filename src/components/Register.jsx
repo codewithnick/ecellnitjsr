@@ -3,13 +3,13 @@ import React from "react";
 import styled from "styled-components";
 import "../styles/Register.css";
 //Icons
-import Mail from "../images/Icon/mail.png";
-import Mail_2 from "../images/Icon/mail_2.png";
-import Office from "../images/Icon/officeBuilding.png";
-import Phone from "../images/Icon/Phone.png";
-import User from "../images/Icon/user.png";
-import Msg from "../images/Icon/message.png";
-import RightArrow from "../images/Icon/rightArrow.png";
+import Mail from "../images/Icon/mail.webp";
+import Mail_2 from "../images/Icon/mail_2.webp";
+import Office from "../images/Icon/officeBuilding.webp";
+import Phone from "../images/Icon/Phone.webp";
+import User from "../images/Icon/user-6581b8582f0a9.webp";
+import Msg from "../images/Icon/message.webp";
+import RightArrow from "../images/Icon/rightarrow-6581b87c3189f.webp";
 
 export const Register = () => {
   return (

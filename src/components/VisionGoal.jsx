@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/VisionGoal.css";
-import tmp from "../images/Icon/goal .png";
+import tmp from "../images/Icon/goal-.webp";
 import mis from "../images/Icon/crosshairs-solid.svg";
 import vis from "../images/Icon/eye-solid.svg";
 

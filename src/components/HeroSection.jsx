@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/HeroSection.css";
 
-import rightimg from '../images/heroimage.jpeg'
+import rightimg from '../images/heroimage-6581b864da057.webp'
 export const HeroSection = () => {
   return (
     <>

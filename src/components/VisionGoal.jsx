@@ -14,7 +14,7 @@ export const VisionGoal = () => {
       <div className="container">
         <div className="card" id="About_mission">
           <div className="box">
-            <img src={mis} alt="" />
+            <img style={{width: "4rem"}}src={mis} alt="" />
             <div className="content">
               <h3>Mission</h3>
               <p>
@@ -27,7 +27,7 @@ export const VisionGoal = () => {
 
         <div className="card" id="About_goal">
           <div className="box">
-          <img src={tmp} alt="" />
+          <img style={{width: "4rem"}}src={tmp} alt="" />
             <div className="content">
               <h3>Goal</h3>
               <p>
@@ -40,7 +40,7 @@ export const VisionGoal = () => {
 
         <div className="card" id="About_vision">
           <div className="box">
-          <img src={vis} alt="" />
+          <img style={{width: "4rem"}} src={vis} alt="" />
             <div className="content">
              
               <h3>Vision</h3>

@@ -14,8 +14,7 @@ header {
   text-align: center;
   margin-bottom: 15px;
   background-color: whitesmoke;
-}
-h1 {
+}.corpoRodies h1 {
   margin: 1em 0 0.5em 0;
   color: #343434;
   font-weight: normal;
@@ -26,18 +25,36 @@ h1 {
   text-shadow: 0 2px white, 0 3px #777;
   font-weight: bold;
 }
-.card-container {
+
+.team{
   display: flex;
-  flex-direction: column;
+  column-gap: 50px;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: 20px auto;
-  row-gap: 10px;
+  margin-bottom: 30px;
 }
-.card {
-  width: 70%;
+.about{
+  width: 45vw;
+  height: 500px;
+}
+.team-img{
+  width: 45vw;
+  height: 500px;
+}
+.corpoRodies .card-container {
+  margin: 10px auto;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: 20px auto;
+    row-gap: 10px;
+    column-gap: 20px;
+    /* border: 2px solid red; */
+    max-width: 90vw;
+}
+.corpoRodies .card-container .card {
+  width: 100%;
   height: 60vh;
   border-radius: 8px;
   overflow: hidden;
@@ -50,7 +67,7 @@ h1 {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card img {
+.card img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -88,7 +105,8 @@ h1 {
 }
 
 .profile-container {
-  margin-top: 50px;
+  padding: 50px;
+  margin-top: 50px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -121,12 +139,27 @@ h1 {
   padding: 5px;
   background-color:whitesmoke;
 }
-.profile-container{
-/* border: 2px solid blue; */
-padding: 50px;
-}
+
 .profile-container h3{
     font-weight: bold;
     /* border: 2px solid red; */
     padding: 7px 10px;
+}
+.win-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -25px;
+}
+.win-info h2{
+  font-weight: bold;  
+  font-size: 25px;
+  
+}
+
+.box1{
+  /* border: 2px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }

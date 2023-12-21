@@ -8,17 +8,24 @@ import akankshaa from "../images/event/CorporateRodies/akanshaa.webp"
 import shubam from "../images/event/CorporateRodies/shubam.webp"
 import shuvamF from "../images/event/CorporateRodies/shuvamF.webp"
 import team from "../images/event/CorporateRodies/team.webp"
-
-
+import Gallery from "./Gallery"
+import Img1 from "../images/event/CorporateRodies/img1.webp"
+import Img2 from "../images/event/CorporateRodies/img2.webp"
+import Img3 from "../images/event/CorporateRodies/img3.webp"
+import Img4 from "../images/event/CorporateRodies/img4.webp"
+import Img5 from "../images/event/CorporateRodies/img5.webp"
 const CorporateRoadies = () => {
+  const imgArr = [
+Img1,Img2,Img3,Img4,Img5,cr1,cr2,cr3,team
+  ]
   return (
     <div className="corpoRodies">
       <header>
-        <h1>Corporate roadies</h1>
+        <h1 style={{marginLeft: "0%"}}>Corporate roadies</h1>
       </header>
       <div className="team">
         <div className="about">
-        <h1>About Us</h1>
+        <h1 style={{marginLeft: "0%"}}>About Us</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum consectetur voluptas nisi, hic, itaque iste harum incidunt quidem quo cupiditate atque enim amet, mollitia iusto animi autem? Molestiae praesentium vero ipsa tempore ipsum, asperiores impedit. Autem fugit aliquid dignissimos repudiandae iure delectus ducimus, unde modi doloremque perferendis, provident vitae cumque quis sit? Doloribus, sed. Eveniet quas provident voluptatem voluptates nisi sed in. Doloribus voluptate deleniti sunt accusantium at quasi em nihil neque eaque maiores porro? Ab eum a ipsam molestiae tenetur. Inventore vero et repellendus voluptates expedita velit debitis, iusto repellat natus enim?</p>
         </div>
         <div className="team-img">
@@ -28,6 +35,7 @@ const CorporateRoadies = () => {
             />
         </div>
       </div>
+      <h1 style={{marginLeft: "3%"}}>Our Winner</h1>
       <div className="card-container">
         <div className="box1">
           <div className="card">
@@ -146,6 +154,7 @@ const CorporateRoadies = () => {
           </div>
         </section>
       </div>
+      <Gallery imgArr={imgArr}/>
     </div>
   );
 };

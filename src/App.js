@@ -68,7 +68,7 @@ const router = createBrowserRouter([
     </>
   },
   {
-    path: '/partevent',
+    path: '/pastevent/corporaterodies',
     element: <>
       <Navbar />
       <CorporateRodies />

@@ -5,10 +5,10 @@
     
     display: grid;
     gap: var(--g);
-    width: calc(3*var(--s) + 2*var(--g));
+    width: 60%;
     aspect-ratio: 1;
     grid-template-columns: repeat(3,auto);
-    margin-left: 64vh;
+    margin-left: 20vw;
     margin-bottom: 10vh;
   }
   

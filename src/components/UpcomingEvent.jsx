@@ -9,7 +9,7 @@ import CorporateRodies from "../images/BusinessConclave/CorporateRodies.JPG"
 import IdeaHackathon from "../images/BusinessConclave/IdeaHackathon.JPG"
 import StarSpeaker from "../images/BusinessConclave/StarSpeaker.JPG"
 import TeenPrenure from "../images/BusinessConclave/TeenPrenure.JPG"
-
+import { Link } from 'react-router-dom';
 
 // const cardsData = [
 //   {id: 0, color: '#85A0A6',TextColor: "#fff", imageSrc:'Cards/image0.png',title: 'Business Conclave', text: 'Get ready for the grandeur of innovation and entrepreneurship as NIT Jamshedpur hosts its largest business conclave yet, promising a dynamic fusion of ideas, industry leaders, and unparalleled networking opportunities.' ,link: 'https://unstop.com/college-fests/business-conclave-2023-national-institute-of-technology-nit-jamshedpur-167842'},
@@ -51,7 +51,7 @@ function App() {
               The event is divided into 3 sub events :- 1. Pitch there Problem statement 2. Case study submission 3. Final presentation:- Shortlisted participants will proceed to the final round
               </p>
               <div className="btn">
-              <button class="button-42" role="button"><a href="/"><a href="/">Read More</a></a></button>
+              <button class="button-42" role="button" ><Link to="/pastevent/corporaterodies"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>

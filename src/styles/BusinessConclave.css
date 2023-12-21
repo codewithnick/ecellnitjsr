@@ -142,3 +142,8 @@ h1 {
     padding-bottom: 27px;
     margin: 10px -5px;
   }
+  @media (max-width: 768px){
+     .rowContainter1{
+        flex-direction: column;
+     }
+  }

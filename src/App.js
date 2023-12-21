@@ -12,6 +12,7 @@ import Register from "./components/Register";
 import Footer from "./components/Footer";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './components/About';
+import CorporateRodies from './components/CorporateRodies';
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,14 @@ const router = createBrowserRouter([
     element: <>
       <Navbar />
       <Register />
+      <Footer />
+    </>
+  },
+  {
+    path: '/pastevent/corporaterodies',
+    element: <>
+      <Navbar />
+      <CorporateRodies />
       <Footer />
     </>
   },

@@ -36,7 +36,7 @@ function App() {
               Get ready for the grandeur of innovation and entrepreneurship as NIT Jamshedpur hosts its largest business conclave yet, promising a dynamic fusion of ideas, industry leaders, and unparalleled networking opportunities
               </p>
               <div className="btn">
-              <button class="button-42" role="button"><a href="/"><a href="/">Read More</a></a></button>
+              <button class="button-42" role="button" ><Link to="/pastevent/businesstycoon"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ function App() {
               We would provide a platform to people from across India to share their startup ideas and gain access to seed funding from top investors.
               </p>
               <div className="btn">
-              <button class="button-42" role="button"><a href="/"><a href="/">Read More</a></a></button>
+              <button class="button-42" role="button" ><Link to="/pastevent/ideahackathon"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ function App() {
               Our Star Speaker will guide everyone through the dynamic landscape of the business world, providing valuable insights and strategies to help us navigate and thrive in today's market
               </p>
               <div className="btn">
-              <button class="button-42" role="button"><a href="/"><a href="/">Read More</a></a></button>
+              <button class="button-42" role="button" ><Link to="/pastevent/starspeaker"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ function App() {
               This is an offline group discussion round. All the Round 1 qualifiers will get grouped as board members and   will be provided with a specific role to handle. They will be  provided with a problem statement and asked to come up with asolution through discussion.
               </p>
               <div className="btn">
-              <button class="button-42" role="button"><a href="/"><a href="/">Read More</a></a></button>
+              <button class="button-42" role="button" ><Link to="/pastevent/teenprenure"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>

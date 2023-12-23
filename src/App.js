@@ -13,6 +13,10 @@ import Footer from "./components/Footer";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './components/About';
 import CorporateRodies from './components/CorporateRodies';
+import BusinessTycon from './components/BusinessTycon';
+import IdeaHackathon from './components/IdeaHackathon';
+import StarSpeaker from './components/StarSpeaker';
+import TeenPrenure from './components/TeenPrenure';
 
 const router = createBrowserRouter([
   {
@@ -75,6 +79,38 @@ const router = createBrowserRouter([
       <Footer />
     </>
   },
+  {
+    path: '/pastevent/businesstycoon',
+    element: <>
+      <Navbar />
+      <BusinessTycon />
+      <Footer />
+    </>
+  },
+  {
+    path: '/pastevent/ideahackathon',
+    element: <>
+      <Navbar />
+      <IdeaHackathon />
+      <Footer />
+    </>
+  },
+  {
+    path: '/pastevent/starspeaker',
+    element: <>
+      <Navbar />
+      <StarSpeaker />
+      <Footer />
+    </>
+  },
+  {
+    path: '/pastevent/teenprenure',
+    element: <>
+      <Navbar />
+      <TeenPrenure />
+      <Footer />
+    </>
+  }
 ])
 
 function App() {

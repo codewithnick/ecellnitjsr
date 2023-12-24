@@ -162,7 +162,7 @@ header {
 }
 
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   header {
     padding: 5px;
   }
@@ -170,6 +170,7 @@ header {
   .corpoRodies h1 {
     font-size: 24px;
     line-height: 28px;
+    text-align: center;
   }
 
   .corpoRodies .team-img{
@@ -179,8 +180,12 @@ header {
   .corpoRodies .card-container {
     flex-wrap: wrap;
   }
-  .card {
-    height: auto;
+   .card{
+    width: 80%;
+    height: 25vh;
+  }
+  .corpoRodies .box1{
+    width: 90%;
   }
   .profile img {
     width: 100%;
@@ -215,6 +220,7 @@ header {
   .win-info h2 {
     font-size: 22px;
   }
-
- 
+  .corpoRodies .card-container .card{
+    max-height: 25vh;
+  }
 }

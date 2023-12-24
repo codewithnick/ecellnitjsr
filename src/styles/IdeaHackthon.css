@@ -1,0 +1,145 @@
+.corpoRodies {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  header {
+    text-transform: capitalize;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+  }.corpoRodies h1 {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: "Ultra", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+    font-weight: bold;
+  }
+  
+  .team{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .about{
+    width: 45vw;
+    height: auto;
+  }
+  .team-img{
+    width: 45vw;
+    height: auto;
+  }
+  .corpoRodies .card-container {
+    margin: 10px auto;
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      /* flex-wrap: wrap; */
+      margin: 20px auto;
+      row-gap: 10px;
+      column-gap: 20px;
+      /* border: 2px solid red; */
+      max-width: 90vw;
+  }
+  .corpoRodies .card-container .card {
+    width: 100%;
+    height: 60vh;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-origin: center;
+    transform: scale(1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover img {
+    /* filter: grayscale(100%); */
+    filter: blur(0px);
+    transform: scale(1.15);
+  }
+  
+
+  .win-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -25px;
+  }
+  .win-info h2{
+    font-weight: bold;  
+    font-size: 25px;
+    
+  }
+  
+  .box1{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .winners-container {
+    width: 80vw;
+    margin: 1ox auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .winner {
+    text-align: center;
+    padding: 10px;
+  }
+.winners-container .winner h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+  @media only screen and (max-width: 767px) {
+    header {
+      padding: 5px;
+    }
+  
+    .corpoRodies h1 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  
+    .corpoRodies .team-img{
+      display: none;
+    }
+  
+    .corpoRodies .card-container {
+      flex-wrap: wrap;
+    }
+    .card {
+      height: auto;
+    }
+    .win-info h2 {
+      font-size: 22px;
+    }
+  }
+  

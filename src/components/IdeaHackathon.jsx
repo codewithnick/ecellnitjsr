@@ -22,7 +22,7 @@ const CorporateRoadies = () => {
     return (
         <div className="corpoRodies">
             <header>
-                <h1 style={{ marginLeft: "0%" }}>Business Tycoon</h1>
+                <h1 style={{ marginLeft: "0%" }}>Idea Hackathon</h1>
             </header>
             <div className="team">
                 <div className="about">
@@ -87,7 +87,7 @@ const CorporateRoadies = () => {
                     <p>2nd</p>
                 </div>
                 <div class="winner">
-                    <h2>Derma 360 NIH</h2>
+                    <h2>Derma 360</h2>
                     <p>3rd</p>
                 </div>
             </div>

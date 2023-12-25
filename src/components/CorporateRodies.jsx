@@ -16,26 +16,26 @@ import Img4 from "../images/event/CorporateRodies/img4.webp"
 import Img5 from "../images/event/CorporateRodies/img5.webp"
 const CorporateRoadies = () => {
   const imgArr = [
-Img1,Img2,Img3,Img4,Img5,cr1,cr2,cr3,team
+    Img1, Img2, Img3, Img4, Img5, cr1, cr2, cr3, team
   ]
   return (
     <div className="corpoRodies">
       <header>
-        <h1 style={{marginLeft: "0%"}}>Corporate roadies</h1>
+        <h1 style={{ marginLeft: "0%" }}>Corporate roadies</h1>
       </header>
       <div className="team">
         <div className="about">
-        <h1 style={{marginLeft: "0%"}}>About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum consectetur voluptas nisi, hic, itaque iste harum incidunt quidem quo cupiditate atque enim amet, mollitia iusto animi autem? Molestiae praesentium vero ipsa tempore ipsum, asperiores impedit. Autem fugit aliquid dignissimos repudiandae iure delectus ducimus, unde modi doloremque perferendis, provident vitae cumque quis sit? Doloribus, sed. Eveniet quas provident voluptatem voluptates nisi sed in. Doloribus voluptate deleniti sunt accusantium at quasi em nihil neque eaque maiores porro? Ab eum a ipsam molestiae tenetur. Inventore vero et repellendus voluptates expedita velit debitis, iusto repellat natus enim?</p>
+          <h1 style={{ marginLeft: "0%" }}>About Us</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum consectetur voluptas nisi, hic, itaque iste harum incidunt quidem quo cupiditate atque enim amet, mollitia iusto animi autem? Molestiae praesentium vero ipsa tempore ipsum, asperiores impedit. Autem fugit aliquid dignissimos repudiandae iure delectus ducimus, unde modi doloremque perferendis, provident vitae cumque quis sit? Doloribus, sed. Eveniet quas provident voluptatem voluptates nisi sed in. Doloribus voluptate deleniti sunt accusantium at quasi em nihil neque eaque maiores porro? Ab eum a ipsam molestiae tenetur. Inventore vero et repellendus voluptates expedita velit debitis, iusto repellat natus enim?</p>
         </div>
         <div className="team-img">
-        <img
-              src={team}
-              alt="Profile 3"
-            />
+          <img
+            src={team}
+            alt="Profile 3"
+          />
         </div>
       </div>
-      <h1 style={{marginLeft: "3%"}}>Our Winner</h1>
+      <h1 style={{ marginLeft: "3%" }}>Our Winner</h1>
       <div className="card-container">
         <div className="box1">
           <div className="card">
@@ -94,13 +94,75 @@ Img1,Img2,Img3,Img4,Img5,cr1,cr2,cr3,team
         </header>
 
         <section className="profile-container">
-          <div className="profile">
-            <img
-              src={akankshaa}
-              alt="Profile 1"
-            />
+          <div className="card-judge">
+            <div className="profile">
+              <img
+                src={akankshaa}
+                alt="Profile 1"
+              />
+            </div>
+            <div className="judge-name">
+            <h3>Dr. Akanksha Shukla</h3>
+
+            </div>
+            <div className="info">
+              <ul>
+                <li>Assistant Professor with a remarkable 12-year teaching tenure</li>
+                <li>Noteworthy publications in SSCI and Scopus indexed journals</li>
+                <li>Holds a Ph.D. in management from MNNIT Allahabad</li>
+              </ul>
+            </div>
           </div>
-          <div className="profile">
+          <div className="card-judge">
+            <div className="profile">
+              <img
+                src={shuvamF}
+                alt="Profile 1"
+              />
+            </div>
+            <div className="judge-name">
+            <h3>Dr. Shubham Tripathi</h3>
+            </div>
+            <div className="info">
+            <ul>
+              <li>
+                Currently serving as Assistant Professor at NIT Jamshedpur in
+                Production & Industrial Engineering
+              </li>
+              <li>
+                Ph.D. in Supply Chain Management with a focus on the fourth
+                Industrial revolution
+              </li>
+              <li>Recipient of the 2018 Emerging Young Scientist Award</li>
+            </ul>
+            </div>
+          </div>
+          <div className="card-judge">
+            <div className="profile">
+              <img
+                src={shubam}
+                alt="Profile 1"
+              />
+            </div>
+            <div className="judge-name">
+            <h3>Mr. Shubham Khanna</h3>
+            </div>
+            <div className="info">
+            <ul>
+              <li>Director of T.I.M.E, Jamshedpur</li>
+              <li>
+                An alumnus of XLRI with outstanding achievements, including 99+%ile
+                in CAT and XAT
+              </li>
+              <li>
+                Senior Brand Manager at CIPLA, contributing extensive knowledge to
+                the pharmaceutical industry
+              </li>
+            </ul>
+            </div>
+          </div>
+
+          {/* <div className="profile">
             <img
               src={shuvamF}
               alt="Profile 2"
@@ -112,19 +174,9 @@ Img1,Img2,Img3,Img4,Img5,cr1,cr2,cr3,team
               alt="Profile 3"
             />
           </div>
-          <h3>Dr. Akanksha Shukla</h3>
           <h3>Dr. Shubham Tripathi</h3>
           <h3>Mr. Shubham Khanna</h3>
-          <div className="info">
-            <ul>
-              <li>Assistant Professor with a remarkable 12-year teaching tenure</li>
-              <li>Noteworthy publications in SSCI and Scopus indexed journals</li>
-              <li>
-                Successful completion of a Ministry of Education sponsored project.
-              </li>
-              <li>Holds a Ph.D. in management from MNNIT Allahabad</li>
-            </ul>
-          </div>
+
           <div className="info">
             <ul>
               <li>
@@ -151,10 +203,10 @@ Img1,Img2,Img3,Img4,Img5,cr1,cr2,cr3,team
                 the pharmaceutical industry
               </li>
             </ul>
-          </div>
+          </div> */}
         </section>
       </div>
-      <Gallery imgArr={imgArr}/>
+      <Gallery imgArr={imgArr} />
     </div>
   );
 };

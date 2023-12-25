@@ -104,11 +104,24 @@ header {
 .profile-container {
   padding: 50px;
   margin-top: 50px auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
   justify-items: center;
   align-items: center;
   column-gap: 20px;
+}
+.card-judge{
+  flex: 1;
+}
+.judge-name{
+  display: flex;
+  justify-content: center;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+
 }
 .profile img {
   border-radius: 50%;
@@ -187,8 +200,15 @@ header {
   .corpoRodies .box1{
     width: 90%;
   }
-  .profile img {
-    width: 100%;
+  .profile-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+.card-judge .profile img {
+    width: 150px;
+    height: 150px;
+    /* width: 100%; */
     height: auto;
   }
 

@@ -23,35 +23,39 @@ function App() {
   return (
     <div className="App" id='Upcoming'>
       <header><h1> Business Conclave</h1></header>
-      <div className="card-container">
-      <div className="rowContainter1">
+      <div className="card-container Business-Conclave">
+        <div className="rowContainter1">
           <div className="card">
             <img
-            src={BusinessTycoon}
+              src={BusinessTycoon}
               alt="Card Image"
             />
             <div className="card-info">
               <h2 className='h2'>Business Tycoons</h2>
+              <div className="disc">
               <p>
               Get ready for the grandeur of innovation and entrepreneurship as NIT Jamshedpur hosts its largest business conclave yet, promising a dynamic fusion of ideas, industry leaders, and unparalleled networking opportunities
               </p>
+              </div>
               <div className="btn">
-              <button class="button-42" role="button" ><Link to="/pastevent/businesstycoon"><a href="/">Read More</a></Link></button>
+                <button class="button-42" role="button" ><Link to="/pastevent/businesstycoon"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>
           <div className="card card-right">
             <img
-              src= {CorporateRodies}
+              src={CorporateRodies}
               alt="Card Image"
             />
-                      <div className="card-info">
+            <div className="card-info">
               <h2 className='h2'>Corporate roadies</h2>
+              <div className="disc">
               <p>
-              The event is divided into 3 sub events :- 1. Pitch there Problem statement 2. Case study submission 3. Final presentation:- Shortlisted participants will proceed to the final round
+                The event is divided into 3 sub events :- 1. Pitch there Problem statement 2. Case study submission 3. Final presentation:- Shortlisted participants will proceed to the final round
               </p>
+              </div>
               <div className="btn">
-              <button class="button-42" role="button" ><Link to="/pastevent/corporaterodies"><a href="/">Read More</a></Link></button>
+                <button class="button-42" role="button" ><Link to="/pastevent/corporaterodies"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>
@@ -64,11 +68,13 @@ function App() {
             />
             <div className="card-info">
               <h2 className='h2'>Idea Hackathon</h2>
+              <div className="disc">
               <p>
-              We would provide a platform to people from across India to share their startup ideas and gain access to seed funding from top investors.
+                We would provide a platform to people from across India to share their startup ideas and gain access to seed funding from top investors.
               </p>
+              </div>
               <div className="btn">
-              <button class="button-42" role="button" ><Link to="/pastevent/ideahackathon"><a href="/">Read More</a></Link></button>
+                <button class="button-42" role="button" ><Link to="/pastevent/ideahackathon"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>
@@ -79,11 +85,13 @@ function App() {
             />
             <div className="card-info">
               <h2 className='h2'>Star speaker</h2>
+              <div className="disc">
               <p>
-              Our Star Speaker will guide everyone through the dynamic landscape of the business world, providing valuable insights and strategies to help us navigate and thrive in today's market
+                Our Star Speaker will guide everyone through the dynamic landscape of the business world, providing valuable insights and strategies to help us navigate and thrive in today's market
               </p>
+              </div>
               <div className="btn">
-              <button class="button-42" role="button" ><Link to="/pastevent/starspeaker"><a href="/">Read More</a></Link></button>
+                <button class="button-42" role="button" ><Link to="/pastevent/starspeaker"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>
@@ -93,19 +101,21 @@ function App() {
           <div className="card">
             <img
               src={TeenPrenure}
-               alt="Card Image"
+              alt="Card Image"
             />
             <div className="card-info">
               <h2 className='h2'>Teenpreneus</h2>
+              <div className="disc">
               <p>
-              This is an offline group discussion round. All the Round 1 qualifiers will get grouped as board members and   will be provided with a specific role to handle. They will be  provided with a problem statement and asked to come up with asolution through discussion.
+                This is an offline group discussion round. All the Round 1 qualifiers will get grouped as board members and   will be provided with a specific role to handle. They will be  provided with a problem statement and asked to come up with asolution through discussion.
               </p>
+              </div>
               <div className="btn">
-              <button class="button-42" role="button" ><Link to="/pastevent/teenprenure"><a href="/">Read More</a></Link></button>
+                <button class="button-42" role="button" ><Link to="/pastevent/teenprenure"><a href="/">Read More</a></Link></button>
               </div>
             </div>
           </div>
-       
+
         </div>
 
         {/* {cardsData.map((card) => (

@@ -176,6 +176,9 @@ header {
 
 
 @media (max-width: 767px) {
+ .about{
+  min-width: 90vw;
+ }
   header {
     padding: 5px;
   }

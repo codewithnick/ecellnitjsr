@@ -26,7 +26,10 @@ const CorporateRoadies = () => {
       <div className="team">
         <div className="about">
           <h1 style={{ marginLeft: "0%" }}>About Us</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum consectetur voluptas nisi, hic, itaque iste harum incidunt quidem quo cupiditate atque enim amet, mollitia iusto animi autem? Molestiae praesentium vero ipsa tempore ipsum, asperiores impedit. Autem fugit aliquid dignissimos repudiandae iure delectus ducimus, unde modi doloremque perferendis, provident vitae cumque quis sit? Doloribus, sed. Eveniet quas provident voluptatem voluptates nisi sed in. Doloribus voluptate deleniti sunt accusantium at quasi em nihil neque eaque maiores porro? Ab eum a ipsam molestiae tenetur. Inventore vero et repellendus voluptates expedita velit debitis, iusto repellat natus enim?</p>
+          <p>Corporate Roadies is a case study submission event organised by E-Cell NIT Jamshedpur. The event aims to provide a platform for students to solve diverse real-world problems. The participants are required to have a clear problem understanding, solving, clarity, and presentation skills to ace the competition.</p>
+              <h3>It consist of two round -</h3>
+              <li>Round 1: Problem Pitching  and Case Submission</li>
+              <li>Round 2:Final Presentation</li> 
         </div>
         <div className="team-img">
           <img

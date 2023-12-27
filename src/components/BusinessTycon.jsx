@@ -24,7 +24,8 @@ Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9
       <div className="team">
         <div className="about">
         <h1 style={{marginLeft: "0%"}}>About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum consectetur voluptas nisi, hic, itaque iste harum incidunt quidem quo cupiditate atque enim amet, mollitia iusto animi autem? Molestiae praesentium vero ipsa tempore ipsum, asperiores impedit. Autem fugit aliquid dignissimos repudiandae iure delectus ducimus, unde modi doloremque perferendis, provident vitae cumque quis sit? Doloribus, sed. Eveniet quas provident voluptatem voluptates nisi sed in. Doloribus voluptate deleniti sunt accusantium at quasi em nihil neque eaque maiores porro? Ab eum a ipsam molestiae tenetur. Inventore vero et repellendus voluptates expedita velit debitis, iusto repellat natus enim?</p>
+        <p>"Business Tycoon," orchestrated with the noble purpose of disseminating awareness about the vibrant and dynamic world of startup culture. Three exceptional personalities graced us with their presence, each sharing an enriching tapestry of challenges, triumphs, and the indomitable spirit that defines the essence of an entrepreneur.</p>
+        <p>The event was an extravaganza of inspiration, where these luminaries didn't merely share their stories but wove a tapestry of wisdom, resilience, and entrepreneurial flair. Attendees found themselves on a riveting journey, navigating through challenges and embracing the insignia of entrepreneurship.</p>
         </div>
         <div className="team-img">
         <img
@@ -43,7 +44,7 @@ Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9
             />
           </div>
           <div className="win-info">
-            <h2>The Dumb Founder</h2>
+            <h2>Nachiket Bhatia</h2>
           </div>
         </div>
         <div className="box1">
@@ -55,7 +56,7 @@ Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9
            
           </div>
           <div className="win-info">
-            <h2>Thyperion Crew</h2>
+            <h2>Sunny Kabrawal</h2>
           </div>
         </div>
         <div className="box1">
@@ -68,7 +69,7 @@ Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9
      
           </div>
           <div className="win-info">
-            <h2> CMCR'S</h2>
+            <h2>Deep Kakkad</h2>
           </div>
         </div>
       </div>

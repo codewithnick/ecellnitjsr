@@ -42,7 +42,7 @@ export const Navbar = () => {
       document.getElementById("menu").style.paddingBottom = "0vh";
       document.getElementById("menu").style.paddingTop = "0vh";
   }
-  return (
+  return (<>
     <NavDiv>
       <div
         id="navbar"
@@ -89,8 +89,17 @@ export const Navbar = () => {
         </div>
       </div>
     </NavDiv>
+<BufferDiv></BufferDiv>
+    </>
   );
 };
+const BufferDiv= styled.div`
+height: 0;
+@media (max-width: 510px){
+  min-height: 100px;
+}
+
+`;
 const NavDiv = styled.div`
 #navbar {
   width: 100vw;

@@ -24,7 +24,8 @@ const CorporateRoadies = () => {
             <div className="team">
                 <div className="about">
                     <h1 style={{ marginLeft: "0%" }}>About Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatum consectetur voluptas nisi, hic, itaque iste harum incidunt quidem quo cupiditate atque enim amet, mollitia iusto animi autem? Molestiae praesentium vero ipsa tempore ipsum, asperiores impedit. Autem fugit aliquid dignissimos repudiandae iure delectus ducimus, unde modi doloremque perferendis, provident vitae cumque quis sit? Doloribus, sed. Eveniet quas provident voluptatem voluptates nisi sed in. Doloribus voluptate deleniti sunt accusantium at quasi em nihil neque eaque maiores porro? Ab eum a ipsam molestiae tenetur. Inventore vero et repellendus voluptates expedita velit debitis, iusto repellat natus enim?</p>
+                    <p> An unforgettable evening featuring none other than the renowned star speaker, Shikhar Goel, CTO of GeeksforGeeks! As one of the most captivating and influential voices in the industry, Shikhar Goel has grace the event with his presence and share his invaluable insights.</p>
+                    <p>GeeksforGeeks is a well-established company in the field of higher education, with a focus on education. As a symbol of excellence in tech, Shikhar Goel, with his innovative approach, leads GeeksforGeeks. Shikhar Goel is a highly experienced professional with 7.9 years of work experience. With a wealth of knowledge, Shikhar Goel has shaped the tech industry. Don't miss the chance to hear from this luminary and gain insights to conquer the evolving world of technology.</p>
                 </div>
                 <div className="team-img">
                     <img

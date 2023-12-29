@@ -46,7 +46,7 @@ const CorporateRoadies = () => {
                         />
                     </div>
                     <div className="win-info">
-                        <h2>The Dumb Founder</h2>
+                        <h2>Jatin Kataria</h2>
                     </div>
                 </div>
                 <div className="box1">
@@ -58,7 +58,7 @@ const CorporateRoadies = () => {
 
                     </div>
                     <div className="win-info">
-                        <h2>Thyperion Crew</h2>
+                        <h2>Kk Choudhary</h2>
                     </div>
                 </div>
                 <div className="box1">
@@ -71,7 +71,7 @@ const CorporateRoadies = () => {
 
                     </div>
                     <div className="win-info">
-                        <h2> CMCR'S</h2>
+                        <h2>Atul Puri</h2>
                     </div>
                 </div>
             </div>

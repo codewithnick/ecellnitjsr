@@ -1,6 +1,5 @@
 import React from 'react';
-import '../styles/StarSpeaker.css'
-
+import '../styles/TeenPrenure.css'
 
 import Gallery from "./Gallery"
 import Img1 from "../images/event/TeenPrenures/img1.webp"
@@ -35,18 +34,7 @@ const CorporateRoadies = () => {
             </div>
             <h1 style={{ marginLeft: "3%" }}>Our Winner</h1>
       <div className="card-container">
-        <div className="box1">
-          <div className="card">
-            <img
-              src={Img1}
-              alt="Card Image"
-            />
-          </div>
-          <div className="win-info">
-            <h2>The Dumb Founder</h2>
-            <h5>Position : 1st</h5>
-          </div>
-        </div>
+
         <div className="box1">
           <div className="card">
             <img
@@ -54,23 +42,28 @@ const CorporateRoadies = () => {
               alt="Profile 2"
             />
           </div>
-          <div className="win-info">
-            <h2>Thyperion Crew</h2>
-            <h5>Position : 2nd</h5>
-          </div>
         </div>
-        <div className="box1">
-
-          <div className="card">
-            <img
-              src={Img3}
-              alt="Profile 3"
-            />
-          </div>
-          <div className="win-info">
-            <h2>Sukriti Rai</h2>
-            <h5>Position : 3rd</h5>
-          </div>
+        <div className="box1 winners-teenprenure">
+        <div className="first">
+          <h2 className='win-name'>Aekumraj Singh Bhatia </h2>
+          <h3 className='position'>1st</h3>
+        </div>
+        <div className="second">
+          <h2 className='win-name'>Rohit Parasar</h2>
+          <h3 className='position'>2nd</h3>
+        </div>
+        <div className="third">
+          <h2 className='win-name'>Sukriti Rai</h2>
+          <h3 className='position'>3rd</h3>
+        </div>
+        <div className="third">
+          <h2 className='win-name'>Arin Chaudhary</h2>
+          <h3 className='position'>4th</h3>
+        </div>
+        <div className="third">
+          <h2 className='win-name'>Abhishek Agrahari</h2>
+          <h3 className='position'>5th</h3>
+        </div>
         </div>
       </div>
             <Gallery imgArr={imgArr} />

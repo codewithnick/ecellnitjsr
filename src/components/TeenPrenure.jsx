@@ -45,16 +45,24 @@ const CorporateRoadies = () => {
         </div>
         <div className="box1 winners-teenprenure">
         <div className="first">
-          <h2 className='win-name'>Akkumni</h2>
+          <h2 className='win-name'>Aekumraj Singh Bhatia </h2>
           <h3 className='position'>1st</h3>
         </div>
         <div className="second">
-          <h2 className='win-name'>Vikash</h2>
+          <h2 className='win-name'>Rohit Parasar</h2>
           <h3 className='position'>2nd</h3>
         </div>
         <div className="third">
           <h2 className='win-name'>Sukriti Rai</h2>
           <h3 className='position'>3rd</h3>
+        </div>
+        <div className="third">
+          <h2 className='win-name'>Arin Chaudhary</h2>
+          <h3 className='position'>4th</h3>
+        </div>
+        <div className="third">
+          <h2 className='win-name'>Abhishek Agrahari</h2>
+          <h3 className='position'>5th</h3>
         </div>
         </div>
       </div>

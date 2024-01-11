@@ -2,11 +2,11 @@ import React from "react";
 import "../styles/about.css";
 import styled from "styled-components";
 import { useEffect } from "react";
-import ecelllogo from "../images/logo.png";
+import ecelllogo from "../images/logo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import foundImg from "../images/founding.jpg";
-import star from "../images/Icon/star.png"
+import foundImg from "../images/founding.webp";
+import star from "../images/Icon/star.webp"
 const About = () => {
   function randomizeBlob() {
     const blob = document.querySelector(".blob");

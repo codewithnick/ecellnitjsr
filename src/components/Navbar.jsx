@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ecelllogo from "../images/logo.png";
+import ecelllogo from "../images/logo.webp";
 //import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import styled from "styled-components";

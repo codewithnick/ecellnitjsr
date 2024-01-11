@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import "../styles/PastEvent.css";
-import bigshot from "../images/pastEvents/bigshot.png"
-import bizbooost from "../images/pastEvents/bizbooost.png"
-import caseathon from "../images/pastEvents/caseathon.png"
-import mockstock from "../images/pastEvents/mockstock.png"
-import prompteng from "../images/pastEvents/prompteng.png"
-import supplychain from "../images/pastEvents/supplychain.png"
-import mock2 from "../images/pastEvents/mock2.png"
+import bigshot from "../images/pastEvents/bigshot.webp"
+import bizbooost from "../images/pastEvents/bizbooost.webp"
+import caseathon from "../images/pastEvents/caseathon.webp"
+import mockstock from "../images/pastEvents/mockstock.webp"
+import prompteng from "../images/pastEvents/prompteng.webp"
+import supplychain from "../images/pastEvents/supplychain.webp"
+import mock2 from "../images/pastEvents/mock2.webp"
 
 
 const PastEvent = () => {

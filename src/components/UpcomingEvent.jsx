@@ -4,11 +4,11 @@ import React from 'react';
 // import '../styles/UpcomingEvent.css'
 import '../styles/BusinessConclave.css'
 
-import BusinessTycoon from "../images/BusinessConclave/BusinessTycoon.JPG"
-import CorporateRodies from "../images/BusinessConclave/CorporateRodies.JPG"
-import IdeaHackathon from "../images/BusinessConclave/IdeaHackathon.JPG"
-import StarSpeaker from "../images/BusinessConclave/StarSpeaker.JPG"
-import TeenPrenure from "../images/BusinessConclave/TeenPrenure.JPG"
+import BusinessTycoon from "../images/BusinessConclave/BusinessTycoon.webp"
+import CorporateRodies from "../images/BusinessConclave/CorporateRodies.webp"
+import IdeaHackathon from "../images/BusinessConclave/IdeaHackathon.webp"
+import StarSpeaker from "../images/BusinessConclave/StarSpeaker.webp"
+import TeenPrenure from "../images/BusinessConclave/TeenPrenure.webp"
 import { Link } from 'react-router-dom';
 
 // const cardsData = [

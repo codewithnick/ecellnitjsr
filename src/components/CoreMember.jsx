@@ -2,17 +2,17 @@ import React from "react";
 import "../styles/CoreMember.css";
 
 const Members = [
-  {id:1, name:'Anish',por:'President',pic:"members\\Rambabu kumar.jpg"},
-  {id:1, name:'Subrajeet',por:'Vice President',pic:"members\\Subrajeet.JPG"},
-  {id:1, name:'Yashraj Singh',por:'General Secretary',pic:"members\\Yashraj singh .jpg"},
-  {id:1, name:'Anshu Kumar',por:'CRN Head',pic:"members\\anshu kumar CRN head.jpg"},
-  {id:1, name:'Suraj Burnwal',por:'CRN Head',pic:"members\\suraj burnwal crn head.jpg"},
-  {id:1, name:'Nikhil Singh',por:'Operations Head',pic:"members\\Nikhil singh.jpg"},
-  {id:1, name:'Rambabu',por:'Operations Head',pic:"members\\Rambabu.jpg"},
-  {id:1, name:'Tushar Kumar',por:'PR Head External',pic:"members\\tushar kumar pr head.jpg"},
-  {id:1, name:'Prashant Kumar',por:'PR Head Internal',pic:"members\\Prashant kumar .jpg"},
-  {id:1, name:'Homi',por:'Creative Head',pic:"members\\Isha.jpg"},
-  {id:1, name:'Nitesh Kumar',por:'Web Team Head',pic:"members\\Nitish kumar Web head.jpg"},
+  {id:1, name:'Anish',por:'President',pic:"members\\Rambabu kumar.webp"},
+  {id:1, name:'Subrajeet',por:'Vice President',pic:"members\\Subrajeet.webp"},
+  {id:1, name:'Yashraj Singh',por:'General Secretary',pic:"members\\Yashraj singh .webp"},
+  {id:1, name:'Anshu Kumar',por:'CRN Head',pic:"members\\anshu kumar CRN head.webp"},
+  {id:1, name:'Suraj Burnwal',por:'CRN Head',pic:"members\\suraj burnwal crn head.webp"},
+  {id:1, name:'Nikhil Singh',por:'Operations Head',pic:"members\\Nikhil singh.webp"},
+  {id:1, name:'Rambabu',por:'Operations Head',pic:"members\\Rambabu.webp"},
+  {id:1, name:'Tushar Kumar',por:'PR Head External',pic:"members\\tushar kumar pr head.webp"},
+  {id:1, name:'Prashant Kumar',por:'PR Head Internal',pic:"members\\Prashant kumar .webp"},
+  {id:1, name:'Homi',por:'Creative Head',pic:"members\\Isha.webp"},
+  {id:1, name:'Nitesh Kumar',por:'Web Team Head',pic:"members\\Nitish kumar Web head.webp"},
 ]
 
 export const CoreMember = () => {

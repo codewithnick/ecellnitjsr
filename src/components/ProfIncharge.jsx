@@ -1,8 +1,8 @@
 import React from 'react'
-import Professor1 from "../images/professorIncharge.jpg"
-import Professor2 from "../images/ranjitprashad.png"
-import Professor3 from "../images/RamKrishna.jpg"
-import Professor4 from "../images/kanika.jpg"
+import Professor1 from "../images/professorIncharge.webp"
+import Professor2 from "../images/ranjitprashad.webp"
+import Professor3 from "../images/RamKrishna.webp"
+import Professor4 from "../images/kanika.webp"
 import styled from 'styled-components'
 const ProfIncharge = () => {
   return (

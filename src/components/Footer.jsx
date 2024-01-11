@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import '../styles/Footer.css';
  //Image
- import Logo from "../images/logo.png"
+ import Logo from "../images/logo.webp"
 
  //Icon
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

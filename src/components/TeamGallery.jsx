@@ -8,16 +8,16 @@ export const TeamGallery = () => {
       <div className="px-20 pb-10 bg-white">
 
         <div class="flex flex-wrap justify-center">
-            <img class="h-auto max-w-full rounded-lg object-cover w-full  lg:w-5/12 md:5/12 m-2" src="members\\1.png" alt=""/>
+            <img class="h-auto max-w-full rounded-lg object-cover w-full  lg:w-5/12 md:5/12 m-2" src="members\\1.webp" alt=""/>
           
           
-            <img class="h-auto max-w-full rounded-lg object-cover w-full  lg:w-5/12 md:5/12 m-2" src="members\\2.jpg" alt=""/>
+            <img class="h-auto max-w-full rounded-lg object-cover w-full  lg:w-5/12 md:5/12 m-2" src="members\\2.webp" alt=""/>
           
           
-            <img class="h-auto max-w-full rounded-lg object-cover w-full  lg:w-5/12 md:5/12 m-2" src="members\\3.jpg" alt=""/>
+            <img class="h-auto max-w-full rounded-lg object-cover w-full  lg:w-5/12 md:5/12 m-2" src="members\\3.webp" alt=""/>
           
           
-            <img class="h-auto max-w-full rounded-lg object-cover w-full  lg:w-5/12 md:5/12 m-2" src="members\\4.jpg" alt=""/>
+            <img class="h-auto max-w-full rounded-lg object-cover w-full  lg:w-5/12 md:5/12 m-2" src="members\\4.webp" alt=""/>
           
         </div>
 

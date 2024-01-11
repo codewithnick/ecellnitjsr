@@ -1,8 +1,8 @@
 import React from "react";
-import Bobble from '../images/fanStoreLogo.png'
+import Bobble from '../images/fanStoreLogo.webp'
 import "../styles/HeroSection.css";
 
-import rightimg from "../images/banner-image.png";
+import rightimg from "../images/banner-image.webp";
 // import bgimg1 from '../images/whiteimg3.jpg'
 // import bgimg2 from '../images/whiteimg2.avif'
 
